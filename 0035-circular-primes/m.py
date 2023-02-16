@@ -19,7 +19,6 @@ for i in range(1, N + 1):
 	k = i
 	while True:
 		k = (k // 10) + (k % 10) * 10 ** t
-		print(i, k)
 		if lf[k] != k:
 			circ = False
 			break

@@ -31,11 +31,11 @@ for p in pr:
 				continue
 			if pm[t]:
 				c += 1
-				print(t, d, m)
 		if c >= 8:
 			for d in range(10):
 				t = int(m.replace('*', str(d)))
 				if pm[t]:
-					print(t)
+					with open('answer.txt', 'w+') as af:
+						print(t, file = af)
+						af.close()
 					exit(0)
-	print(p, ms)

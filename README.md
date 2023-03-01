@@ -22,7 +22,9 @@ I will generally try to abide by the "one-minute rule", in which a program to so
 
 
 Problems Solved: 91
+
 Problems Attempted: 94
+
 <details><summary>List of Solved Problems</summary>
 
 - [1: multiples of 3 or 5](0001-multiples-of-3-or-5)

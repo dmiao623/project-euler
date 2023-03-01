@@ -97,12 +97,10 @@ I will generally try to abide by the "one-minute rule", in which a program to so
 - [99: largest exponential](0099-largest-exponential)
 - [102: triangle containment](0102-triangle-containment)
 - [104: pandigital fibonacci ends](0104-pandigital-fibonacci-ends)
-- [113: non bouncy numbers](0113-non-bouncy-numbers)
 - [114: counting block combinations i](0114-counting-block-combinations-i)
 - [115: counting block combinations ii](0115-counting-block-combinations-ii)
 - [116: red green or blue tiles](0116-red-green-or-blue-tiles)
 - [117: red green and blue tiles](0117-red-green-and-blue-tiles)
-- [158: exploring strings for which only one character comes lexicographically after its neighbor to the left](0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)
 - [179: consecutive positive divisors](0179-consecutive-positive-divisors)
 - [191: prize strings](0191-prize-strings)
 - [204: generalised hamming numbers](0204-generalised-hamming-numbers)
@@ -115,6 +113,5 @@ I will generally try to abide by the "one-minute rule", in which a program to so
 - [500: problem 500](0500-problem-500)
 - [686: powers of two](0686-powers-of-two)
 - [808: reversible prime squares](0808-reversible-prime-squares)
-- [816: shortest distance among points](0816-shortest-distance-among-points)
 </details> 
 

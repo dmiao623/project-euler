@@ -21,6 +21,7 @@ I will generally try to abide by the "one-minute rule", in which a program to so
 ## Statistics
 
  <details><summary>Full List of Solved Problems</summary>
+
 - [0001: multiples of 3 or 5](0001-multiples-of-3-or-5)
 - [0002: even fibonacci numbers](0002-even-fibonacci-numbers)
 - [0003: largest prime factor](0003-largest-prime-factor)

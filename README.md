@@ -18,7 +18,7 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 95
+Problems Solved: 94
 
 Problems Attempted: 99
 
@@ -114,7 +114,6 @@ Problems Attempted: 99
 - [206: Concealed square](0206-concealed-square)
 - [258: A lagged fibonacci sequence](0258-a-lagged-fibonacci-sequence)
 - [301: Nim](0301-nim)
-- [386: Maximum length of an antichain](0386-maximum-length-of-an-antichain)
 - [497: Drunken tower of hanoi](0497-drunken-tower-of-hanoi)
 - [500: Problem 500](0500-problem-500)
 - [686: Powers of two](0686-powers-of-two)
@@ -163,7 +162,7 @@ Problems Attempted: 99
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
-||||||[386](0386-maximum-length-of-an-antichain)|||||
+||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|

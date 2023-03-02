@@ -1,7 +1,7 @@
 import os, re
 
 totalNumProblems = 821
-incompleteProblems = set([113, 158, 816, 411])
+incompleteProblems = set([113, 158, 816, 411, 386])
 
 problemFileRegex = re.compile(r'\d\d\d\d-[\w-]')
 romanNumeralsRegex = re.compile(r' M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')

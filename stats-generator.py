@@ -67,6 +67,7 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 """
 
 suffix = r"""
+Generated automatically using [stats-generator.py](stats-generator.py). 
 """
 
 with open('README.md', 'w+') as readmeFile:

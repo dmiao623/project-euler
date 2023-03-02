@@ -210,4 +210,5 @@ Problems Attempted: 99
 </details>
 
 
+Generated automatically using [stats-generator.py](stats-generator.py). 
 

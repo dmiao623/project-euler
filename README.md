@@ -18,9 +18,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 91
+Problems Solved: 95
 
-Problems Attempted: 95
+Problems Attempted: 99
 
 <details><summary>List of Solved Problems</summary>
 
@@ -62,10 +62,14 @@ Problems Attempted: 95
 - [36: Double base polindrome](0036-double-base-polindrome)
 - [37: Truncatable primes](0037-truncatable-primes)
 - [38: Pandigital multiples](0038-pandigital-multiples)
+- [39: Integer right triangles](0039-integer-right-triangles)
 - [40: Champernownes constant](0040-champernownes-constant)
+- [41: Pandigital prime](0041-pandigital-prime)
 - [42: Coded triangle numbers](0042-coded-triangle-numbers)
+- [43: Sub string divisibility](0043-sub-string-divisibility)
 - [44: Pentagon numbers](0044-pentagon-numbers)
 - [45: Triangular pentagonal and hexagonal](0045-triangular-pentagonal-and-hexagonal)
+- [46: Goldbacks other conjecture](0046-goldbacks-other-conjecture)
 - [47: Distinct prime factors](0047-distinct-prime-factors)
 - [48: Self powers](0048-self-powers)
 - [49: Prime permutations](0049-prime-permutations)
@@ -124,8 +128,8 @@ Problems Attempted: 95
 |[1](0001-multiples-of-3-or-5)|[2](0002-even-fibonacci-numbers)|[3](0003-largest-prime-factor)|[4](0004-largest-palindrome-product)|[5](0005-smallest-multiple)|[6](0006-sum-square-difference)|[7](0007-10001st-prime)|[8](0008-largest-product-in-a-series)|[9](0009-special-pythagorean-triple)|[10](0010-summation-of-primes)|
 |[11](0011-largest-product-in-a-grid)|[12](0012-highly-divisible-triangular-number)|[13](0013-large-sum)|[14](0014-longest-collatz-sequence)|[15](0015-lattice-paths)|[16](0016-power-digit-sum)|[17](0017-number-letter-counts)|[18](0018-maximum-path-sum-i)|[19](0019-counting-sundays)|[20](0020-factorial-digit-sum)|
 |[21](0021-amicable-numbers)|[22](0022-names-score)|[23](0023-non-abundant-sums)|[24](0024-lexicographic-permutations)|[25](0025-1000-digit-fibonacci-number)|[26](0026-reciprocal-cycles)|[27](0027-quadratic-primes)|[28](0028-number-spiral-diagonals)|[29](0029-distinct-powers)|[30](0030-digit-fifth-powers)|
-|[31](0031-coin-sums)|[32](0032-pandigital-products)|[33](0033-digit-cancelling-fractions)|[34](0034-digit-factorials)|[35](0035-circular-primes)|[36](0036-double-base-polindrome)|[37](0037-truncatable-primes)|[38](0038-pandigital-multiples)||[40](0040-champernownes-constant)|
-||[42](0042-coded-triangle-numbers)||[44](0044-pentagon-numbers)|[45](0045-triangular-pentagonal-and-hexagonal)||[47](0047-distinct-prime-factors)|[48](0048-self-powers)|[49](0049-prime-permutations)|[50](0050-consecutive-prime-sum)|
+|[31](0031-coin-sums)|[32](0032-pandigital-products)|[33](0033-digit-cancelling-fractions)|[34](0034-digit-factorials)|[35](0035-circular-primes)|[36](0036-double-base-polindrome)|[37](0037-truncatable-primes)|[38](0038-pandigital-multiples)|[39](0039-integer-right-triangles)|[40](0040-champernownes-constant)|
+|[41](0041-pandigital-prime)|[42](0042-coded-triangle-numbers)|[43](0043-sub-string-divisibility)|[44](0044-pentagon-numbers)|[45](0045-triangular-pentagonal-and-hexagonal)|[46](0046-goldbacks-other-conjecture)|[47](0047-distinct-prime-factors)|[48](0048-self-powers)|[49](0049-prime-permutations)|[50](0050-consecutive-prime-sum)|
 |[51](0051-prime-digit-replacements)|[52](0052-permuted-multiples)|[53](0053-combinatoric-selections)|[54](0054-poker-hands)|[55](0055-lychrel-numbers)|[56](0056-powerful-digit-sum)|[57](0057-square-roots-convergents)|[58](0058-spiral-primes)|[59](0059-xor-decryption)||
 |||||||[67](0067-maximum-path-sum-ii)|[68](0068-magic-5-gon-ring)|[69](0069-totient-maximum)|[70](0070-totient-permutation)|
 |[71](0071-ordered-fractions)|[72](0072-counting-fractions)||[74](0074-digit-factorial-chains)|[75](0075-singular-integer-right-triangles)|[76](0076-counting-summations)|||||

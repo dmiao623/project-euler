@@ -59,7 +59,6 @@ int main() {
 	for (int k = 1; k <= 30; k++) {
 		int t = S(k * k * k * k * k);
 		ans += t;
-		std::cerr << k << " : " << t << '\n';
 	}
 	std::freopen("answer.txt", "w", stdout);
 	std::cout << ans << '\n';

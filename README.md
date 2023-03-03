@@ -4,7 +4,7 @@ This is a list of codes and solutions to [Project Euler](https://projecteuler.ne
 ## Solution
 I tend to be better at problems involving data structures, graph theory algorithms, and dynamic programming (more "typical" competitive programming topics), though I'm also interested in number theoretic algorithms. It should be noted that I have no formal academic training in math or CS. 
 
-I consider internet resources such as [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), [MathWorld](https://mathworld.wolfram.com/), and [OEIS](https://oeis.org/) fair game as long as it does not pertain to the Project Euler problem in particular. It is up to the problemsetter, and not the contestant, to set non-trivial problems that are not just a standard application of a theorem. 
+I consider internet resources such as [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), [MathWorld](https://mathworld.wolfram.com/), and [OEIS](https://oeis.org/) fair game as long as it does not pertain to the Project Euler problem in particular. It is up to the problemsetter, and not the contestant, to set non-trivial problems that are not just a standard application of a theorem. Currently, I have tags disabled. 
 
 I do not solve problems in any particular order; in general, I do whatever interests me. However, I tend to limit myself to the first 300 problems as they are more suited to my difficluty range. 
 
@@ -18,9 +18,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 95
+Problems Solved: 97
 
-Problems Attempted: 99
+Problems Attempted: 101
 
 <details><summary>List of Solved Problems</summary>
 
@@ -107,6 +107,7 @@ Problems Attempted: 99
 - [115: Counting block combinations II](0115-counting-block-combinations-ii)
 - [116: Red green or blue tiles](0116-red-green-or-blue-tiles)
 - [117: Red green and blue tiles](0117-red-green-and-blue-tiles)
+- [164: Numbers for which no three consecutive digits have a sum greater than a given value](0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)
 - [179: Consecutive positive divisors](0179-consecutive-positive-divisors)
 - [191: Prize strings](0191-prize-strings)
 - [204: Generalised hamming numbers](0204-generalised-hamming-numbers)
@@ -114,6 +115,7 @@ Problems Attempted: 99
 - [206: Concealed square](0206-concealed-square)
 - [258: A lagged fibonacci sequence](0258-a-lagged-fibonacci-sequence)
 - [301: Nim](0301-nim)
+- [345: Matrix sum](0345-matrix-sum)
 - [411: Uphill paths](0411-uphill-paths)
 - [497: Drunken tower of hanoi](0497-drunken-tower-of-hanoi)
 - [500: Problem 500](0500-problem-500)
@@ -141,7 +143,7 @@ Problems Attempted: 99
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
+||||[164](0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)|||||||
 |||||||||[179](0179-consecutive-positive-divisors)||
 ||||||||||<br>|
 |[191](0191-prize-strings)||||||||||
@@ -159,7 +161,7 @@ Problems Attempted: 99
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
+|||||[345](0345-matrix-sum)||||||
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|

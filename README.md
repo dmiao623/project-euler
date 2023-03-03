@@ -9,7 +9,7 @@ I consider internet resources such as [Wikipedia](https://en.wikipedia.org/wiki/
 I do not solve problems in any particular order; in general, I do whatever interests me. However, I tend to limit myself to the first 300 problems as they are more suited to my difficluty range. 
 
 ## Code
-My code is written in Python (for convenience) or C++ (for speed). You can find a (deprecated) list of my templates on [my blog](https://dustin-miao.github.io/) or [my code library](https://dustin-miao.github.io/library/). I have a list of commonly used [templates](templates) and [sequences](sequences) specific to Project Euler in this repository, which I import as necessary in my solutions.  Finally, you can find codes on my [CodeForces](https://codeforces.com/profile/dutin) or [AtCoder](https://atcoder.jp/users/dutinmeow) profile. 
+My code is written in Python, Mathematica, and C++. You can find a (deprecated) list of my templates on [my blog](https://dustin-miao.github.io/) or [my code library](https://dustin-miao.github.io/library/). I have a list of commonly used [templates](templates) and [sequences](sequences) specific to Project Euler in this repository, which I import as necessary in my solutions.  Finally, you can find codes on my [CodeForces](https://codeforces.com/profile/dutin) or [AtCoder](https://atcoder.jp/users/dutinmeow) profile. 
 
 In my C++ codes I will sometimes import files from the [AtCoder Library](https://atcoder.github.io/ac-library/production/document_en/index.html). This is a library of templates for commonly used algorithm, the most useful of which is the [modular int](https://atcoder.github.io/ac-library/production/document_en/modint.html). 
 
@@ -18,9 +18,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 97
+Problems Solved: 98
 
-Problems Attempted: 101
+Problems Attempted: 102
 
 <details><summary>List of Solved Problems</summary>
 
@@ -83,6 +83,7 @@ Problems Attempted: 101
 - [57: Square roots convergents](0057-square-roots-convergents)
 - [58: Spiral primes](0058-spiral-primes)
 - [59: Xor decryption](0059-xor-decryption)
+- [64: Odd period square roots](0064-odd-period-square-roots)
 - [67: Maximum path sum II](0067-maximum-path-sum-ii)
 - [68: Magic 5 gon ring](0068-magic-5-gon-ring)
 - [69: Totient maximum](0069-totient-maximum)
@@ -133,7 +134,7 @@ Problems Attempted: 101
 |[31](0031-coin-sums)|[32](0032-pandigital-products)|[33](0033-digit-cancelling-fractions)|[34](0034-digit-factorials)|[35](0035-circular-primes)|[36](0036-double-base-polindrome)|[37](0037-truncatable-primes)|[38](0038-pandigital-multiples)|[39](0039-integer-right-triangles)|[40](0040-champernownes-constant)|
 |[41](0041-pandigital-prime)|[42](0042-coded-triangle-numbers)|[43](0043-sub-string-divisibility)|[44](0044-pentagon-numbers)|[45](0045-triangular-pentagonal-and-hexagonal)|[46](0046-goldbacks-other-conjecture)|[47](0047-distinct-prime-factors)|[48](0048-self-powers)|[49](0049-prime-permutations)|[50](0050-consecutive-prime-sum)|
 |[51](0051-prime-digit-replacements)|[52](0052-permuted-multiples)|[53](0053-combinatoric-selections)|[54](0054-poker-hands)|[55](0055-lychrel-numbers)|[56](0056-powerful-digit-sum)|[57](0057-square-roots-convergents)|[58](0058-spiral-primes)|[59](0059-xor-decryption)||
-|||||||[67](0067-maximum-path-sum-ii)|[68](0068-magic-5-gon-ring)|[69](0069-totient-maximum)|[70](0070-totient-permutation)|
+||||[64](0064-odd-period-square-roots)|||[67](0067-maximum-path-sum-ii)|[68](0068-magic-5-gon-ring)|[69](0069-totient-maximum)|[70](0070-totient-permutation)|
 |[71](0071-ordered-fractions)|[72](0072-counting-fractions)||[74](0074-digit-factorial-chains)|[75](0075-singular-integer-right-triangles)|[76](0076-counting-summations)|||||
 |[81](0081-path-sum-two-ways)|[82](0082-path-sum-three-ways)|[83](0083-path-sum-four-ways)||[85](0085-counting-rectangles)||[87](0087-prime-power-triples)||||
 ||[92](0092-square-digit-chains)||||[96](0096-su-doku)|[97](0097-large-non-mersenne-prime)||[99](0099-largest-exponential)||

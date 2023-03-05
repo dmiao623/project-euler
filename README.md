@@ -18,9 +18,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 98
+Problems Solved: 100
 
-Problems Attempted: 102
+Problems Attempted: 105
 
 <details><summary>List of Solved Problems</summary>
 
@@ -108,6 +108,7 @@ Problems Attempted: 102
 - [115: Counting block combinations II](0115-counting-block-combinations-ii)
 - [116: Red green or blue tiles](0116-red-green-or-blue-tiles)
 - [117: Red green and blue tiles](0117-red-green-and-blue-tiles)
+- [150: Searching a triangular array for a sub triangle having minimum sum](0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)
 - [164: Numbers for which no three consecutive digits have a sum greater than a given value](0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)
 - [179: Consecutive positive divisors](0179-consecutive-positive-divisors)
 - [191: Prize strings](0191-prize-strings)
@@ -117,6 +118,7 @@ Problems Attempted: 102
 - [258: A lagged fibonacci sequence](0258-a-lagged-fibonacci-sequence)
 - [301: Nim](0301-nim)
 - [345: Matrix sum](0345-matrix-sum)
+- [378: Triangle triples](0378-triangle-triples)
 - [411: Uphill paths](0411-uphill-paths)
 - [497: Drunken tower of hanoi](0497-drunken-tower-of-hanoi)
 - [500: Problem 500](0500-problem-500)
@@ -142,7 +144,7 @@ Problems Attempted: 102
 ||||[114](0114-counting-block-combinations-i)|[115](0115-counting-block-combinations-ii)|[116](0116-red-green-or-blue-tiles)|[117](0117-red-green-and-blue-tiles)||||
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
+||||||||||[150](0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
 ||||||||||<br>|
 ||||[164](0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)|||||||
 |||||||||[179](0179-consecutive-positive-divisors)||
@@ -165,7 +167,7 @@ Problems Attempted: 102
 |||||[345](0345-matrix-sum)||||||
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
+||||||||[378](0378-triangle-triples)|||
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|

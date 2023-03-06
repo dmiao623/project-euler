@@ -21,6 +21,9 @@ int main(int argc, char *argv[]) {
 	int n = _n == "" ? 100'000'000 : std::stoi(_n);
 	std::string fpath = get_arg(argv, argv + argc, "-f");
 	assert(fpath != "");
+	auto _plen = get_arg(argv, argv + argc, "-p");
+	int plen = std::min(n, _plen == "" ? 10 : std::stoi(_plen));
+
 	std::cout << "terms  : " << n << '\n';
 	std::cout << "file   : " << fpath << '\n';
 
@@ -32,6 +35,10 @@ int main(int argc, char *argv[]) {
 	for (int i = 1; i <= n; i++)
 		of << lf[i] << '\n';
 	of.close();
+
+	std::cout << "prev  : [";
+	for (int i = 1; i < plen; i++)
+		std::cout << lf[i] << (i == plen - 1 ? ", ...]\n" : ", ");
 
 	auto etime = std::chrono::high_resolution_clock::now();
 	auto time = std::chrono::duration_cast<std::chrono::seconds>(etime - stime).count();

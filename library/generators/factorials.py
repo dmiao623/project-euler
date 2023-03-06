@@ -19,12 +19,16 @@ if __name__ == '__main__':
 
 	n = 1_000
 	fpath = ''
+	plen = 10
 	for opt, arg in opts:
 		if opt == '-n':
 			n = int(arg)
 		elif opt == '-f':
 			fpath = arg
+		elif opt == '-p':
+			plen = int(arg)
 	assert fpath != ''
+	print(f'terms  : {n}\nfile   : {fpath}')
 
 	fac = factorials(n)
 	with open(fpath, 'w+') as of:
@@ -32,4 +36,5 @@ if __name__ == '__main__':
 			print(x, file = of)
 		of.close()
 
-	print(f'terms : {n}\nfile  : \'{fpath}\'\ntime  : {round(time() - stime)} seconds')
+	print(f'prev   : {str(fac[:plen])[:-1] + ", ...]"}')
+	print(f'time   : {round(time() - stime)} seconds')

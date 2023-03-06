@@ -28,7 +28,7 @@ for fileName in files:
 
 		numProblemsSolved += 1
 		problemsSolved[int(problemNumber)] = fileName;
-		problemList += f'- [{problemNumber}: {problemName}]({fileName})\n'
+		problemList += f'- [{problemNumber}: {problemName}](problems/{fileName})\n'
 problemList += '</details>\n'
 
 problemTable = '<details><summary>Table of Solved Problems</summary>\n\n'
@@ -41,7 +41,7 @@ for tensDigit in range(0, totalNumProblems, 10):
 			problemTable += '|'
 		else:
 			problemExists = True
-			problemTable += f'|[{problemNumber}]({problemsSolved[problemNumber]})'
+			problemTable += f'|[{problemNumber}](problems/{problemsSolved[problemNumber]})'
 	if not problemExists:
 		problemTable += '<br>'
 	problemTable += '|\n'

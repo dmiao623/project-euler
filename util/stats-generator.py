@@ -1,3 +1,5 @@
+# TODO: add support for PE API
+
 import os, re
 
 totalNumProblems = 821
@@ -77,4 +79,3 @@ with open('../README.md', 'w+') as readmeFile:
 	print(problemList, file = readmeFile)
 	print(problemTable, file = readmeFile)
 	print(suffix, file = readmeFile)
-# TODO: Add support for Project Euler API

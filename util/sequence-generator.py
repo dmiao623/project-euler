@@ -1,4 +1,4 @@
-# TODO: Handle dependencies
+# TODO: handle dependencies automatically
 
 import os
 from time import time

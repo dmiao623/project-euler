@@ -1,10 +1,10 @@
-def rm(x: int):
-	"""
+def miller_rabin(x: int):
+	'''
 	Primality test based on Miller-Rabin algorithm. Complexity is
 	logarithmic in the size of x. 
 
-	x: positive integer value less than 2^64
-	"""
+	x: positive integer value less than 2^64.
+	'''
 
 	if x < 31:
 		return (0x208A28AC >> x & 1) == 1
@@ -15,16 +15,16 @@ def rm(x: int):
 		return True
 
 	ta = []
-	if x < 5329:
-		ta = [377687]
-	elif x < 9080191:
+	if x < 5_329:
+		ta = [377_687]
+	elif x < 9_080_191:
 		ta = [31, 73]
-	elif x < 4759123141:
+	elif x < 4_759_123_141:
 		ta = [2, 7, 61]
-	elif x < 1122004669633:
-		ta = [2, 13, 23, 1662803]
+	elif x < 1_122_004_669_633:
+		ta = [2, 13, 23, 1_662_803]
 	else:
-		ta = [2, 325, 9375, 28178, 450775, 9780504, 1795265022]
+		ta = [2, 325, 9_375, 28_178, 450_775, 9_780_504, 1_795_265_022]
 
 	d, s = (x - 1) >> 1, 0
 	while (d & 1) == 0:
@@ -46,14 +46,15 @@ def rm(x: int):
 			return False
 	return True
 
-n = 10 ** 7
-pm = [False] * (n + 1)
-with open('../sequences/primes.txt', 'r') as df:
-	for l in df:
-		p = int(l)
-		if p > n:
-			break
-		pm[p] = True
-	df.close()
-for i in range(1, n + 1):
-	assert pm[i] == rm(i)
+if __name__ == '__main__'
+	n = 10 ** 7
+	pm = [False] * (n + 1)
+	with open('../sequences/primes.txt', 'r') as df:
+		for l in df:
+			p = int(l)
+			if p > n:
+				break
+			pm[p] = True
+		df.close()
+	for i in range(1, n + 1):
+		assert pm[i] == miller_rabin(i)

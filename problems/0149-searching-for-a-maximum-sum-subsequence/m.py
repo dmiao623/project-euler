@@ -9,6 +9,7 @@ def kadane(a):
 	return r
 
 n = 2_000
+
 m = n * n
 z = 1_000_000
 s = [(100_003 - 200_003 * i + 300_007 * i * i * i) % z - z // 2 for i in range(1, 56)]

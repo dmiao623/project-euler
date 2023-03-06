@@ -18,9 +18,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 101
+Problems Solved: 103
 
-Problems Attempted: 106
+Problems Attempted: 108
 
 <details><summary>List of Solved Problems</summary>
 
@@ -108,9 +108,11 @@ Problems Attempted: 106
 - [115: Counting block combinations II](problems/0115-counting-block-combinations-ii)
 - [116: Red green or blue tiles](problems/0116-red-green-or-blue-tiles)
 - [117: Red green and blue tiles](problems/0117-red-green-and-blue-tiles)
+- [149: Searching for a maximum sum subsequence](problems/0149-searching-for-a-maximum-sum-subsequence)
 - [150: Searching a triangular array for a sub triangle having minimum sum](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)
 - [164: Numbers for which no three consecutive digits have a sum greater than a given value](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)
 - [179: Consecutive positive divisors](problems/0179-consecutive-positive-divisors)
+- [187: Semiprimes](problems/0187-semiprimes)
 - [191: Prize strings](problems/0191-prize-strings)
 - [204: Generalised hamming numbers](problems/0204-generalised-hamming-numbers)
 - [205: Dice game](problems/0205-dice-game)
@@ -145,11 +147,11 @@ Problems Attempted: 106
 ||||[114](problems/0114-counting-block-combinations-i)|[115](problems/0115-counting-block-combinations-ii)|[116](problems/0116-red-green-or-blue-tiles)|[117](problems/0117-red-green-and-blue-tiles)||||
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||[150](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
+|||||||||[149](problems/0149-searching-for-a-maximum-sum-subsequence)|[150](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
 ||||||||||<br>|
 ||||[164](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)|||||||
 |||||||||[179](problems/0179-consecutive-positive-divisors)||
-||||||||||<br>|
+|||||||[187](problems/0187-semiprimes)||||
 |[191](problems/0191-prize-strings)||||||||||
 ||||[204](problems/0204-generalised-hamming-numbers)|[205](problems/0205-dice-game)|[206](problems/0206-concealed-square)|||||
 ||||||||||<br>|

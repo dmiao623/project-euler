@@ -36,8 +36,8 @@ int main() {
 		t = t * t;
 	}
 
-	std::ofstream df("answer.txt");
+	std::ofstream af("answer.txt");
 	assert(df);
-	df << r[b(n, 0)][0] << '\n';
-	df.close();
+	af << r[b(n, 0)][0] << '\n';
+	af.close();
 }

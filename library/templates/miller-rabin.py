@@ -46,7 +46,7 @@ def miller_rabin(x: int):
 			return False
 	return True
 
-if __name__ == '__main__'
+if __name__ == '__main__':
 	n = 10 ** 7
 	pm = [False] * (n + 1)
 	with open('../sequences/primes.txt', 'r') as df:

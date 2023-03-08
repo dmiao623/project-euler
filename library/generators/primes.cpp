@@ -45,12 +45,12 @@ int main(int argc, char *argv[]) {
 	std::tie(std::ignore, pr) = linear_sieve(m);
 
 	std::ofstream of(fpath);
-	for (int i = 1; i <= n; i++)
+	for (int i = 0; i <= n; i++)
 		of << pr[i] << '\n';
 	of.close();
 
 	std::cout << "prev  : [";
-	for (int i = 1; i < plen; i++)
+	for (int i = 0; i < plen; i++)
 		std::cout << pr[i] << (i == plen - 1 ? ", ...]\n" : ", ");
 
 	auto etime = std::chrono::high_resolution_clock::now();

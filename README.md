@@ -18,9 +18,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 103
+Problems Solved: 104
 
-Problems Attempted: 108
+Problems Attempted: 110
 
 <details><summary>List of Solved Problems</summary>
 
@@ -118,6 +118,7 @@ Problems Attempted: 108
 - [205: Dice game](problems/0205-dice-game)
 - [206: Concealed square](problems/0206-concealed-square)
 - [258: A lagged fibonacci sequence](problems/0258-a-lagged-fibonacci-sequence)
+- [294: Sum of digits experience 23](problems/0294-sum-of-digits-experience-23)
 - [301: Nim](problems/0301-nim)
 - [337: Totient squarestep sequence](problems/0337-totient-squarestep-sequence)
 - [345: Matrix sum](problems/0345-matrix-sum)
@@ -162,7 +163,7 @@ Problems Attempted: 108
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
+||||[294](problems/0294-sum-of-digits-experience-23)|||||||
 |[301](problems/0301-nim)||||||||||
 ||||||||||<br>|
 ||||||||||<br>|

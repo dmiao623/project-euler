@@ -8,6 +8,12 @@ I consider internet resources such as [Wikipedia](https://en.wikipedia.org/wiki/
 
 I do not solve problems in any particular order; in general, I do whatever interests me. However, I tend to limit myself to the first 300 problems as they are more suited to my difficluty range. 
 
+My favorite Problems (in order):
+
+- [Bitwise-OR operations on random integers](https://projecteuler.net/problem=323)
+- [Su Doku](https://projecteuler.net/problem=96)
+- [Drunken Tower of Hanoi](https://projecteuler.net/problem=497)
+
 ## Code
 My code is written in Python, Mathematica, and C++. You can find a (deprecated) list of my templates on [my blog](https://dustin-miao.github.io/) or [my code library](https://dustin-miao.github.io/library/). I have a list of commonly used [templates](library/templates) and [sequences](library/sequences) specific to Project Euler in this repository, which I import as necessary in my solutions.  Finally, you can find codes on my [CodeForces](https://codeforces.com/profile/dutin) or [AtCoder](https://atcoder.jp/users/dutinmeow) profile. 
 
@@ -18,9 +24,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 104
+Problems Solved: 106
 
-Problems Attempted: 110
+Problems Attempted: 112
 
 <details><summary>List of Solved Problems</summary>
 
@@ -83,6 +89,7 @@ Problems Attempted: 110
 - [57: Square roots convergents](problems/0057-square-roots-convergents)
 - [58: Spiral primes](problems/0058-spiral-primes)
 - [59: Xor decryption](problems/0059-xor-decryption)
+- [60: Prime pair sets](problems/0060-prime-pair-sets)
 - [64: Odd period square roots](problems/0064-odd-period-square-roots)
 - [67: Maximum path sum II](problems/0067-maximum-path-sum-ii)
 - [68: Magic 5 gon ring](problems/0068-magic-5-gon-ring)
@@ -120,6 +127,7 @@ Problems Attempted: 110
 - [258: A lagged fibonacci sequence](problems/0258-a-lagged-fibonacci-sequence)
 - [294: Sum of digits experience 23](problems/0294-sum-of-digits-experience-23)
 - [301: Nim](problems/0301-nim)
+- [323: Bitwise or operations on random integers](problems/0323-bitwise-or-operations-on-random-integers)
 - [337: Totient squarestep sequence](problems/0337-totient-squarestep-sequence)
 - [345: Matrix sum](problems/0345-matrix-sum)
 - [378: Triangle triples](problems/0378-triangle-triples)
@@ -139,7 +147,7 @@ Problems Attempted: 110
 |[21](problems/0021-amicable-numbers)|[22](problems/0022-names-score)|[23](problems/0023-non-abundant-sums)|[24](problems/0024-lexicographic-permutations)|[25](problems/0025-1000-digit-fibonacci-number)|[26](problems/0026-reciprocal-cycles)|[27](problems/0027-quadratic-primes)|[28](problems/0028-number-spiral-diagonals)|[29](problems/0029-distinct-powers)|[30](problems/0030-digit-fifth-powers)|
 |[31](problems/0031-coin-sums)|[32](problems/0032-pandigital-products)|[33](problems/0033-digit-cancelling-fractions)|[34](problems/0034-digit-factorials)|[35](problems/0035-circular-primes)|[36](problems/0036-double-base-polindrome)|[37](problems/0037-truncatable-primes)|[38](problems/0038-pandigital-multiples)|[39](problems/0039-integer-right-triangles)|[40](problems/0040-champernownes-constant)|
 |[41](problems/0041-pandigital-prime)|[42](problems/0042-coded-triangle-numbers)|[43](problems/0043-sub-string-divisibility)|[44](problems/0044-pentagon-numbers)|[45](problems/0045-triangular-pentagonal-and-hexagonal)|[46](problems/0046-goldbacks-other-conjecture)|[47](problems/0047-distinct-prime-factors)|[48](problems/0048-self-powers)|[49](problems/0049-prime-permutations)|[50](problems/0050-consecutive-prime-sum)|
-|[51](problems/0051-prime-digit-replacements)|[52](problems/0052-permuted-multiples)|[53](problems/0053-combinatoric-selections)|[54](problems/0054-poker-hands)|[55](problems/0055-lychrel-numbers)|[56](problems/0056-powerful-digit-sum)|[57](problems/0057-square-roots-convergents)|[58](problems/0058-spiral-primes)|[59](problems/0059-xor-decryption)||
+|[51](problems/0051-prime-digit-replacements)|[52](problems/0052-permuted-multiples)|[53](problems/0053-combinatoric-selections)|[54](problems/0054-poker-hands)|[55](problems/0055-lychrel-numbers)|[56](problems/0056-powerful-digit-sum)|[57](problems/0057-square-roots-convergents)|[58](problems/0058-spiral-primes)|[59](problems/0059-xor-decryption)|[60](problems/0060-prime-pair-sets)|
 ||||[64](problems/0064-odd-period-square-roots)|||[67](problems/0067-maximum-path-sum-ii)|[68](problems/0068-magic-5-gon-ring)|[69](problems/0069-totient-maximum)|[70](problems/0070-totient-permutation)|
 |[71](problems/0071-ordered-fractions)|[72](problems/0072-counting-fractions)||[74](problems/0074-digit-factorial-chains)|[75](problems/0075-singular-integer-right-triangles)|[76](problems/0076-counting-summations)|||||
 |[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)||[87](problems/0087-prime-power-triples)||||
@@ -166,7 +174,7 @@ Problems Attempted: 110
 ||||[294](problems/0294-sum-of-digits-experience-23)|||||||
 |[301](problems/0301-nim)||||||||||
 ||||||||||<br>|
-||||||||||<br>|
+|||[323](problems/0323-bitwise-or-operations-on-random-integers)||||||||
 |||||||[337](problems/0337-totient-squarestep-sequence)||||
 |||||[345](problems/0345-matrix-sum)||||||
 ||||||||||<br>|

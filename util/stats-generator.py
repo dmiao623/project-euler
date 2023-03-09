@@ -57,6 +57,12 @@ I consider internet resources such as [Wikipedia](https://en.wikipedia.org/wiki/
 
 I do not solve problems in any particular order; in general, I do whatever interests me. However, I tend to limit myself to the first 300 problems as they are more suited to my difficluty range. 
 
+My favorite Problems (in order):
+
+- [Bitwise-OR operations on random integers](https://projecteuler.net/problem=323)
+- [Su Doku](https://projecteuler.net/problem=96)
+- [Drunken Tower of Hanoi](https://projecteuler.net/problem=497)
+
 ## Code
 My code is written in Python, Mathematica, and C++. You can find a (deprecated) list of my templates on [my blog](https://dustin-miao.github.io/) or [my code library](https://dustin-miao.github.io/library/). I have a list of commonly used [templates](library/templates) and [sequences](library/sequences) specific to Project Euler in this repository, which I import as necessary in my solutions.  Finally, you can find codes on my [CodeForces](https://codeforces.com/profile/dutin) or [AtCoder](https://atcoder.jp/users/dutinmeow) profile. 
 

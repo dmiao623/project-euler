@@ -24,9 +24,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 106
+Problems Solved: 111
 
-Problems Attempted: 112
+Problems Attempted: 117
 
 <details><summary>List of Solved Problems</summary>
 
@@ -90,7 +90,9 @@ Problems Attempted: 112
 - [58: Spiral primes](problems/0058-spiral-primes)
 - [59: Xor decryption](problems/0059-xor-decryption)
 - [60: Prime pair sets](problems/0060-prime-pair-sets)
+- [63: Powerful digits count](problems/0063-powerful-digits-count)
 - [64: Odd period square roots](problems/0064-odd-period-square-roots)
+- [65: Convergents of e](problems/0065-convergents-of-e)
 - [67: Maximum path sum II](problems/0067-maximum-path-sum-ii)
 - [68: Magic 5 gon ring](problems/0068-magic-5-gon-ring)
 - [69: Totient maximum](problems/0069-totient-maximum)
@@ -100,6 +102,7 @@ Problems Attempted: 112
 - [74: Digit factorial chains](problems/0074-digit-factorial-chains)
 - [75: Singular integer right triangles](problems/0075-singular-integer-right-triangles)
 - [76: Counting summations](problems/0076-counting-summations)
+- [79: Password derivation](problems/0079-password-derivation)
 - [81: Path sum two ways](problems/0081-path-sum-two-ways)
 - [82: Path sum three ways](problems/0082-path-sum-three-ways)
 - [83: Path sum four ways](problems/0083-path-sum-four-ways)
@@ -132,10 +135,12 @@ Problems Attempted: 112
 - [345: Matrix sum](problems/0345-matrix-sum)
 - [378: Triangle triples](problems/0378-triangle-triples)
 - [411: Uphill paths](problems/0411-uphill-paths)
+- [493: Under the rainbow](problems/0493-under-the-rainbow)
 - [497: Drunken tower of hanoi](problems/0497-drunken-tower-of-hanoi)
 - [500: Problem 500](problems/0500-problem-500)
 - [686: Powers of two](problems/0686-powers-of-two)
 - [808: Reversible prime squares](problems/0808-reversible-prime-squares)
+- [828: Numbers challenge](problems/0828-numbers-challenge)
 </details>
 
 <details><summary>Table of Solved Problems</summary>
@@ -148,8 +153,8 @@ Problems Attempted: 112
 |[31](problems/0031-coin-sums)|[32](problems/0032-pandigital-products)|[33](problems/0033-digit-cancelling-fractions)|[34](problems/0034-digit-factorials)|[35](problems/0035-circular-primes)|[36](problems/0036-double-base-polindrome)|[37](problems/0037-truncatable-primes)|[38](problems/0038-pandigital-multiples)|[39](problems/0039-integer-right-triangles)|[40](problems/0040-champernownes-constant)|
 |[41](problems/0041-pandigital-prime)|[42](problems/0042-coded-triangle-numbers)|[43](problems/0043-sub-string-divisibility)|[44](problems/0044-pentagon-numbers)|[45](problems/0045-triangular-pentagonal-and-hexagonal)|[46](problems/0046-goldbacks-other-conjecture)|[47](problems/0047-distinct-prime-factors)|[48](problems/0048-self-powers)|[49](problems/0049-prime-permutations)|[50](problems/0050-consecutive-prime-sum)|
 |[51](problems/0051-prime-digit-replacements)|[52](problems/0052-permuted-multiples)|[53](problems/0053-combinatoric-selections)|[54](problems/0054-poker-hands)|[55](problems/0055-lychrel-numbers)|[56](problems/0056-powerful-digit-sum)|[57](problems/0057-square-roots-convergents)|[58](problems/0058-spiral-primes)|[59](problems/0059-xor-decryption)|[60](problems/0060-prime-pair-sets)|
-||||[64](problems/0064-odd-period-square-roots)|||[67](problems/0067-maximum-path-sum-ii)|[68](problems/0068-magic-5-gon-ring)|[69](problems/0069-totient-maximum)|[70](problems/0070-totient-permutation)|
-|[71](problems/0071-ordered-fractions)|[72](problems/0072-counting-fractions)||[74](problems/0074-digit-factorial-chains)|[75](problems/0075-singular-integer-right-triangles)|[76](problems/0076-counting-summations)|||||
+|||[63](problems/0063-powerful-digits-count)|[64](problems/0064-odd-period-square-roots)|[65](problems/0065-convergents-of-e)||[67](problems/0067-maximum-path-sum-ii)|[68](problems/0068-magic-5-gon-ring)|[69](problems/0069-totient-maximum)|[70](problems/0070-totient-permutation)|
+|[71](problems/0071-ordered-fractions)|[72](problems/0072-counting-fractions)||[74](problems/0074-digit-factorial-chains)|[75](problems/0075-singular-integer-right-triangles)|[76](problems/0076-counting-summations)|||[79](problems/0079-password-derivation)||
 |[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)||[87](problems/0087-prime-power-triples)||||
 ||[92](problems/0092-square-digit-chains)||||[96](problems/0096-su-doku)|[97](problems/0097-large-non-mersenne-prime)||[99](problems/0099-largest-exponential)||
 ||[102](problems/0102-triangle-containment)||[104](problems/0104-pandigital-fibonacci-ends)|||||||
@@ -191,7 +196,7 @@ Problems Attempted: 112
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
-|||||||[497](problems/0497-drunken-tower-of-hanoi)|||[500](problems/0500-problem-500)|
+|||[493](problems/0493-under-the-rainbow)||||[497](problems/0497-drunken-tower-of-hanoi)|||[500](problems/0500-problem-500)|
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
@@ -224,6 +229,7 @@ Problems Attempted: 112
 ||||||||||<br>|
 ||||||||[808](problems/0808-reversible-prime-squares)|||
 ||||||||||<br>|
+||||||||[828](problems/0828-numbers-challenge)|||
 ||||||||||<br>|
 </details>
 

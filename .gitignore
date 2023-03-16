@@ -1,10 +1,8 @@
-### DS_Store
+#------------ Local       ------------#
 **/.DS_Store
-
-### Sequences
 /library/sequences/
 
-### Python
+#------------ Python      ------------#
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -136,7 +134,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-### C++
+#------------ C++       ------------#
 
 # Prerequisites
 *.d
@@ -171,5 +169,8 @@ dmypy.json
 *.out
 *.app
 
-### Mathematica
+#------------ Mathematica ------------#
 *.nb
+
+#------------ Julia       ------------#
+*.ipynb

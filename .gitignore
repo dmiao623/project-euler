@@ -174,3 +174,4 @@ dmypy.json
 
 #------------ Julia       ------------#
 *.ipynb
+**/*.ipynb_checkpoints/

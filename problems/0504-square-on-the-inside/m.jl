@@ -10,6 +10,6 @@ function solve(m)
 	return ans
 end
 
-open("answer.txt", "w") do df
-    write(df, string(solve(100)))
+open("answer.txt", "w") do af
+    write(af, string(solve(100)))
 end

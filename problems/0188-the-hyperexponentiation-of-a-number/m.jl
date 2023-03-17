@@ -5,6 +5,6 @@ function tetr(a, b, m)
     return powermod(a, tetr(a, b - 1, Primes.totient(m)), m)
 end
 
-open("answer.txt", "w") do df
-    write(df, string(tetr(1777, 1855, 10^8)))
+open("answer.txt", "w") do af
+    write(af, string(tetr(1777, 1855, 10^8)))
 end

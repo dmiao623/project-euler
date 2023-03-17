@@ -13,6 +13,6 @@ function solve(n)
 	return convert(Int32, floor(1 / p))
 end
 
-open("answer.txt", "w") do df
-	write(df, string(solve(15)))
+open("answer.txt", "w") do af
+	write(af, string(solve(15)))
 end

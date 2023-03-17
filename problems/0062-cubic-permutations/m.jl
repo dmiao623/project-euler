@@ -25,6 +25,6 @@ function solve()
     return z[r] ^ 3
 end
 
-open("answer.txt", "w") do df
-    write(df, string(solve()))
+open("answer.txt", "w") do af
+    write(af, string(solve()))
 end

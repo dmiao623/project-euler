@@ -4,8 +4,8 @@
 
 import os, re
 
-totalNumProblems = 832
-incompleteProblems = set([113, 158, 816, 386, 262, 243, 94])
+totalNumProblems = 834
+incompleteProblems = set([113, 816, 386, 262, 94])
 
 problemFileRegex = re.compile(r'\d\d\d\d-[\w-]')
 romanNumeralsRegex = re.compile(r' M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')

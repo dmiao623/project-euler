@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
 		of << pr[i] << '\n';
 	of.close();
 
-	std::cout << "prev  : [";
+	std::cout << "prev   : [";
 	for (int i = 0; i < plen; i++)
 		std::cout << pr[i] << (i == plen - 1 ? ", ...]\n" : ", ");
 

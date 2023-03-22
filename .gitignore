@@ -175,3 +175,7 @@ dmypy.json
 #------------ Julia       ------------#
 *.ipynb
 **/*.ipynb_checkpoints/
+
+#------------ TeX         ------------#
+*.aux
+*.log

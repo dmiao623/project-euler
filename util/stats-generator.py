@@ -50,13 +50,12 @@ for tensDigit in range(0, totalNumProblems, 10):
 problemTable += '</details>\n'
 
 prefix = r"""## Overview
-![profile overview](https://projecteuler.net/profile/dutin.png)
-
-## Overview
 
 This is a list of codes and solutions to [Project Euler](https://projecteuler.net/). The goal of this repository is twofold: to have a cloud-based backup of my codes in case my local copy ever becomes inaccessible, and to inspire by my code solutions. 
 
 I consider internet resources such as [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), [MathWorld](https://mathworld.wolfram.com/), and [OEIS](https://oeis.org/) fair game as long as it doesn't reference the Project Euler problem in particular. It is up to the problemsetter, and not the contestant, to set non-trivial problems that are not just a standard application of a theorem. Currently, I have tags disabled. 
+
+![profile overview](https://projecteuler.net/profile/dutin.png)
 
 ## Code
 My code is written in Julia, Python, Mathematica, and C++. You can find a (deprecated) list of my templates on [my blog](https://dustin-miao.github.io/) or [my code library](https://dustin-miao.github.io/library/). I have a list of commonly used [templates](library/templates) and [sequences](library/generators) specific to Project Euler in this repository, which I import as necessary in my solutions.  Finally, you can find codes for similar problems on my [CodeForces](https://codeforces.com/profile/dutin) or [AtCoder](https://atcoder.jp/users/dutinmeow) profiles. 

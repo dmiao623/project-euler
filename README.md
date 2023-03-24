@@ -17,7 +17,7 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 143
+Problems Solved: 141
 
 Problems Attempted: 149
 
@@ -107,7 +107,6 @@ Problems Attempted: 149
 - [83: Path sum four ways](problems/0083-path-sum-four-ways)
 - [85: Counting rectangles](problems/0085-counting-rectangles)
 - [87: Prime power triples](problems/0087-prime-power-triples)
-- [88: Product sum numbers](problems/0088-product-sum-numbers)
 - [90: Cube digit pairs](problems/0090-cube-digit-pairs)
 - [91: Right triangles with integer coordinates](problems/0091-right-triangles-with-integer-coordinates)
 - [92: Square digit chains](problems/0092-square-digit-chains)
@@ -139,7 +138,6 @@ Problems Attempted: 149
 - [183: Maximum product of parts](problems/0183-maximum-product-of-parts)
 - [187: Semiprimes](problems/0187-semiprimes)
 - [188: The hyperexponentiation of a number](problems/0188-the-hyperexponentiation-of-a-number)
-- [190: Maximising a weighted product](problems/0190-maximising-a-weighted-product)
 - [191: Prize strings](problems/0191-prize-strings)
 - [203: Squarefree binomial coefficients](problems/0203-squarefree-binomial-coefficients)
 - [204: Generalised hamming numbers](problems/0204-generalised-hamming-numbers)
@@ -180,7 +178,7 @@ Problems Attempted: 149
 |[51](problems/0051-prime-digit-replacements)|[52](problems/0052-permuted-multiples)|[53](problems/0053-combinatoric-selections)|[54](problems/0054-poker-hands)|[55](problems/0055-lychrel-numbers)|[56](problems/0056-powerful-digit-sum)|[57](problems/0057-square-roots-convergents)|[58](problems/0058-spiral-primes)|[59](problems/0059-xor-decryption)|[60](problems/0060-prime-pair-sets)|
 ||[62](problems/0062-cubic-permutations)|[63](problems/0063-powerful-digits-count)|[64](problems/0064-odd-period-square-roots)|[65](problems/0065-convergents-of-e)|[66](problems/0066-diophantine-equation)|[67](problems/0067-maximum-path-sum-ii)|[68](problems/0068-magic-5-gon-ring)|[69](problems/0069-totient-maximum)|[70](problems/0070-totient-permutation)|
 |[71](problems/0071-ordered-fractions)|[72](problems/0072-counting-fractions)|[73](problems/0073-counting-fractions-in-a-range)|[74](problems/0074-digit-factorial-chains)|[75](problems/0075-singular-integer-right-triangles)|[76](problems/0076-counting-summations)|[77](problems/0077-prime-summations)|[78](problems/0078-coin-partitions)|[79](problems/0079-password-derivation)|[80](problems/0080-square-root-digital-expansion)|
-|[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)||[87](problems/0087-prime-power-triples)|[88](problems/0088-product-sum-numbers)||[90](problems/0090-cube-digit-pairs)|
+|[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)||[87](problems/0087-prime-power-triples)|||[90](problems/0090-cube-digit-pairs)|
 |[91](problems/0091-right-triangles-with-integer-coordinates)|[92](problems/0092-square-digit-chains)|[93](problems/0093-arithmetic-expressions)||[95](problems/0095-amicable-chains)|[96](problems/0096-su-doku)|[97](problems/0097-large-non-mersenne-prime)||[99](problems/0099-largest-exponential)||
 |[101](problems/0101-optimum-polynomial)|[102](problems/0102-triangle-containment)||[104](problems/0104-pandigital-fibonacci-ends)|||[107](problems/0107-minimal-network)||||
 ||||[114](problems/0114-counting-block-combinations-i)|[115](problems/0115-counting-block-combinations-ii)|[116](problems/0116-red-green-or-blue-tiles)|[117](problems/0117-red-green-and-blue-tiles)|||[120](problems/0120-square-remainders)|
@@ -190,7 +188,7 @@ Problems Attempted: 149
 ||||||||[158](problems/0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)|||
 ||||[164](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)|||||||
 |||||||||[179](problems/0179-consecutive-positive-divisors)||
-|||[183](problems/0183-maximum-product-of-parts)||||[187](problems/0187-semiprimes)|[188](problems/0188-the-hyperexponentiation-of-a-number)||[190](problems/0190-maximising-a-weighted-product)|
+|||[183](problems/0183-maximum-product-of-parts)||||[187](problems/0187-semiprimes)|[188](problems/0188-the-hyperexponentiation-of-a-number)|||
 |[191](problems/0191-prize-strings)||||||||||
 |||[203](problems/0203-squarefree-binomial-coefficients)|[204](problems/0204-generalised-hamming-numbers)|[205](problems/0205-dice-game)|[206](problems/0206-concealed-square)|||||
 ||||||||[218](problems/0218-perfect-right-angled-triangles)|||

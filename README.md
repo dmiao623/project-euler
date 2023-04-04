@@ -16,9 +16,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 141
+Problems Solved: 143
 
-Problems Attempted: 149
+Problems Attempted: 151
 
 <details><summary>List of Solved Problems</summary>
 
@@ -153,6 +153,7 @@ Problems Attempted: 149
 - [323: Bitwise or operations on random integers](problems/0323-bitwise-or-operations-on-random-integers)
 - [337: Totient squarestep sequence](problems/0337-totient-squarestep-sequence)
 - [345: Matrix sum](problems/0345-matrix-sum)
+- [357: Prime generating integers](problems/0357-prime-generating-integers)
 - [378: Triangle triples](problems/0378-triangle-triples)
 - [411: Uphill paths](problems/0411-uphill-paths)
 - [493: Under the rainbow](problems/0493-under-the-rainbow)
@@ -162,6 +163,7 @@ Problems Attempted: 149
 - [577: Counting hexigons](problems/0577-counting-hexigons)
 - [686: Powers of two](problems/0686-powers-of-two)
 - [808: Reversible prime squares](problems/0808-reversible-prime-squares)
+- [816: Shortest distance among points](problems/0816-shortest-distance-among-points)
 - [828: Numbers challenge](problems/0828-numbers-challenge)
 </details>
 
@@ -204,7 +206,7 @@ Problems Attempted: 149
 |||[323](problems/0323-bitwise-or-operations-on-random-integers)||||||||
 |||||||[337](problems/0337-totient-squarestep-sequence)||||
 |||||[345](problems/0345-matrix-sum)||||||
-||||||||||<br>|
+|||||||[357](problems/0357-prime-generating-integers)||||
 ||||||||||<br>|
 ||||||||[378](problems/0378-triangle-triples)|||
 ||||||||||<br>|
@@ -250,7 +252,7 @@ Problems Attempted: 149
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||[808](problems/0808-reversible-prime-squares)|||
-||||||||||<br>|
+||||||[816](problems/0816-shortest-distance-among-points)|||||
 ||||||||[828](problems/0828-numbers-challenge)|||
 ||||||||||<br>|
 </details>

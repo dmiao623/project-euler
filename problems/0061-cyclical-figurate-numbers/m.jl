@@ -11,7 +11,7 @@ function generate(f, ll, rr)
 	return rr
 end
 
-function connected(a, b) = a % 10 == b ÷ 100 % 10 && a ÷ 10 % 10 == b ÷ 1000
+function connected(a, b) a % 10 == b ÷ 100 % 10 && a ÷ 10 % 10 == b ÷ 1000 end
 
 function solve(ll, rr)
 	k = 6

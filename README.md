@@ -16,9 +16,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 143
+Problems Solved: 151
 
-Problems Attempted: 151
+Problems Attempted: 160
 
 <details><summary>List of Solved Problems</summary>
 
@@ -106,6 +106,7 @@ Problems Attempted: 151
 - [83: Path sum four ways](problems/0083-path-sum-four-ways)
 - [85: Counting rectangles](problems/0085-counting-rectangles)
 - [87: Prime power triples](problems/0087-prime-power-triples)
+- [89: Roman numerals](problems/0089-roman-numerals)
 - [90: Cube digit pairs](problems/0090-cube-digit-pairs)
 - [91: Right triangles with integer coordinates](problems/0091-right-triangles-with-integer-coordinates)
 - [92: Square digit chains](problems/0092-square-digit-chains)
@@ -118,10 +119,12 @@ Problems Attempted: 151
 - [102: Triangle containment](problems/0102-triangle-containment)
 - [104: Pandigital fibonacci ends](problems/0104-pandigital-fibonacci-ends)
 - [107: Minimal network](problems/0107-minimal-network)
+- [112: Bouncy numbers](problems/0112-bouncy-numbers)
 - [114: Counting block combinations I](problems/0114-counting-block-combinations-i)
 - [115: Counting block combinations II](problems/0115-counting-block-combinations-ii)
 - [116: Red green or blue tiles](problems/0116-red-green-or-blue-tiles)
 - [117: Red green and blue tiles](problems/0117-red-green-and-blue-tiles)
+- [119: Digit power sum](problems/0119-digit-power-sum)
 - [120: Square remainders](problems/0120-square-remainders)
 - [121: Disc game prize fund](problems/0121-disc-game-prize-fund)
 - [123: Prime square remainders](problems/0123-prime-square-remainders)
@@ -129,12 +132,15 @@ Problems Attempted: 151
 - [125: Palindromic sums](problems/0125-palindromic-sums)
 - [131: Prime cube partnership](problems/0131-prime-cube-partnership)
 - [145: How many reversible numbers are there below one billion](problems/0145-how-many-reversible-numbers-are-there-below-one-billion)
+- [146: Investigating a prime pattern](problems/0146-investigating-a-prime-pattern)
 - [149: Searching for a maximum sum subsequence](problems/0149-searching-for-a-maximum-sum-subsequence)
 - [150: Searching a triangular array for a sub triangle having minimum sum](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)
 - [158: Exploring strings for which only one character comes lexicographically after its neighbor to the left](problems/0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)
 - [164: Numbers for which no three consecutive digits have a sum greater than a given value](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)
 - [179: Consecutive positive divisors](problems/0179-consecutive-positive-divisors)
 - [183: Maximum product of parts](problems/0183-maximum-product-of-parts)
+- [185: Number mind](problems/0185-number-mind)
+- [186: Connectedness of a network](problems/0186-connectedness-of-a-network)
 - [187: Semiprimes](problems/0187-semiprimes)
 - [188: The hyperexponentiation of a number](problems/0188-the-hyperexponentiation-of-a-number)
 - [191: Prize strings](problems/0191-prize-strings)
@@ -149,12 +155,14 @@ Problems Attempted: 151
 - [291: Panaitopol primes](problems/0291-panaitopol-primes)
 - [294: Sum of digits experience 23](problems/0294-sum-of-digits-experience-23)
 - [301: Nim](problems/0301-nim)
+- [304: Primonacci](problems/0304-primonacci)
 - [317: Firecracker](problems/0317-firecracker)
 - [323: Bitwise or operations on random integers](problems/0323-bitwise-or-operations-on-random-integers)
 - [337: Totient squarestep sequence](problems/0337-totient-squarestep-sequence)
 - [345: Matrix sum](problems/0345-matrix-sum)
 - [357: Prime generating integers](problems/0357-prime-generating-integers)
 - [378: Triangle triples](problems/0378-triangle-triples)
+- [387: Harshad numbers](problems/0387-harshad-numbers)
 - [411: Uphill paths](problems/0411-uphill-paths)
 - [493: Under the rainbow](problems/0493-under-the-rainbow)
 - [497: Drunken tower of hanoi](problems/0497-drunken-tower-of-hanoi)
@@ -179,17 +187,17 @@ Problems Attempted: 151
 |[51](problems/0051-prime-digit-replacements)|[52](problems/0052-permuted-multiples)|[53](problems/0053-combinatoric-selections)|[54](problems/0054-poker-hands)|[55](problems/0055-lychrel-numbers)|[56](problems/0056-powerful-digit-sum)|[57](problems/0057-square-roots-convergents)|[58](problems/0058-spiral-primes)|[59](problems/0059-xor-decryption)|[60](problems/0060-prime-pair-sets)|
 ||[62](problems/0062-cubic-permutations)|[63](problems/0063-powerful-digits-count)|[64](problems/0064-odd-period-square-roots)|[65](problems/0065-convergents-of-e)|[66](problems/0066-diophantine-equation)|[67](problems/0067-maximum-path-sum-ii)|[68](problems/0068-magic-5-gon-ring)|[69](problems/0069-totient-maximum)|[70](problems/0070-totient-permutation)|
 |[71](problems/0071-ordered-fractions)|[72](problems/0072-counting-fractions)|[73](problems/0073-counting-fractions-in-a-range)|[74](problems/0074-digit-factorial-chains)|[75](problems/0075-singular-integer-right-triangles)|[76](problems/0076-counting-summations)|[77](problems/0077-prime-summations)|[78](problems/0078-coin-partitions)|[79](problems/0079-password-derivation)|[80](problems/0080-square-root-digital-expansion)|
-|[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)||[87](problems/0087-prime-power-triples)|||[90](problems/0090-cube-digit-pairs)|
+|[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)||[87](problems/0087-prime-power-triples)||[89](problems/0089-roman-numerals)|[90](problems/0090-cube-digit-pairs)|
 |[91](problems/0091-right-triangles-with-integer-coordinates)|[92](problems/0092-square-digit-chains)|[93](problems/0093-arithmetic-expressions)||[95](problems/0095-amicable-chains)|[96](problems/0096-su-doku)|[97](problems/0097-large-non-mersenne-prime)||[99](problems/0099-largest-exponential)||
 |[101](problems/0101-optimum-polynomial)|[102](problems/0102-triangle-containment)||[104](problems/0104-pandigital-fibonacci-ends)|||[107](problems/0107-minimal-network)||||
-||||[114](problems/0114-counting-block-combinations-i)|[115](problems/0115-counting-block-combinations-ii)|[116](problems/0116-red-green-or-blue-tiles)|[117](problems/0117-red-green-and-blue-tiles)|||[120](problems/0120-square-remainders)|
+||[112](problems/0112-bouncy-numbers)||[114](problems/0114-counting-block-combinations-i)|[115](problems/0115-counting-block-combinations-ii)|[116](problems/0116-red-green-or-blue-tiles)|[117](problems/0117-red-green-and-blue-tiles)||[119](problems/0119-digit-power-sum)|[120](problems/0120-square-remainders)|
 |[121](problems/0121-disc-game-prize-fund)||[123](problems/0123-prime-square-remainders)|[124](problems/0124-ordered-radicals)|[125](problems/0125-palindromic-sums)||||||
 |[131](problems/0131-prime-cube-partnership)||||||||||
-|||||[145](problems/0145-how-many-reversible-numbers-are-there-below-one-billion)||||[149](problems/0149-searching-for-a-maximum-sum-subsequence)|[150](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
+|||||[145](problems/0145-how-many-reversible-numbers-are-there-below-one-billion)|[146](problems/0146-investigating-a-prime-pattern)|||[149](problems/0149-searching-for-a-maximum-sum-subsequence)|[150](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
 ||||||||[158](problems/0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)|||
 ||||[164](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)|||||||
 |||||||||[179](problems/0179-consecutive-positive-divisors)||
-|||[183](problems/0183-maximum-product-of-parts)||||[187](problems/0187-semiprimes)|[188](problems/0188-the-hyperexponentiation-of-a-number)|||
+|||[183](problems/0183-maximum-product-of-parts)||[185](problems/0185-number-mind)|[186](problems/0186-connectedness-of-a-network)|[187](problems/0187-semiprimes)|[188](problems/0188-the-hyperexponentiation-of-a-number)|||
 |[191](problems/0191-prize-strings)||||||||||
 |||[203](problems/0203-squarefree-binomial-coefficients)|[204](problems/0204-generalised-hamming-numbers)|[205](problems/0205-dice-game)|[206](problems/0206-concealed-square)|||||
 ||||||||[218](problems/0218-perfect-right-angled-triangles)|||
@@ -201,7 +209,7 @@ Problems Attempted: 151
 ||||||||||<br>|
 ||||||||||<br>|
 |[291](problems/0291-panaitopol-primes)|||[294](problems/0294-sum-of-digits-experience-23)|||||||
-|[301](problems/0301-nim)||||||||||
+|[301](problems/0301-nim)|||[304](problems/0304-primonacci)|||||||
 |||||||[317](problems/0317-firecracker)||||
 |||[323](problems/0323-bitwise-or-operations-on-random-integers)||||||||
 |||||||[337](problems/0337-totient-squarestep-sequence)||||
@@ -209,7 +217,7 @@ Problems Attempted: 151
 |||||||[357](problems/0357-prime-generating-integers)||||
 ||||||||||<br>|
 ||||||||[378](problems/0378-triangle-triples)|||
-||||||||||<br>|
+|||||||[387](problems/0387-harshad-numbers)||||
 ||||||||||<br>|
 ||||||||||<br>|
 |[411](problems/0411-uphill-paths)||||||||||

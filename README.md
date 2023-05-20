@@ -16,9 +16,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 156
+Problems Solved: 157
 
-Problems Attempted: 165
+Problems Attempted: 166
 
 <details><summary>List of Solved Problems</summary>
 
@@ -178,6 +178,7 @@ Problems Attempted: 165
 - [808: Reversible prime squares](problems/0808-reversible-prime-squares)
 - [816: Shortest distance among points](problems/0816-shortest-distance-among-points)
 - [828: Numbers challenge](problems/0828-numbers-challenge)
+- [836: A bold proposition](problems/0836-a-bold-proposition)
 </details>
 
 <details><summary>Table of Solved Problems</summary>
@@ -267,6 +268,7 @@ Problems Attempted: 165
 ||||||||[808](problems/0808-reversible-prime-squares)|||
 ||||||[816](problems/0816-shortest-distance-among-points)|||||
 ||||||||[828](problems/0828-numbers-challenge)|||
+||||||[836](problems/0836-a-bold-proposition)|||||
 ||||||||||<br>|
 </details>
 

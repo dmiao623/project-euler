@@ -4,7 +4,7 @@
 
 import os, re
 
-totalNumProblems = 834
+totalNumProblems = 844
 incompleteProblems = set([113, 386, 262, 94, 61, 88, 190, 197, 227])
 
 problemFileRegex = re.compile(r'\d\d\d\d-[\w-]')

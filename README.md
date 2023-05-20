@@ -16,9 +16,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 151
+Problems Solved: 156
 
-Problems Attempted: 160
+Problems Attempted: 165
 
 <details><summary>List of Solved Problems</summary>
 
@@ -137,6 +137,7 @@ Problems Attempted: 160
 - [150: Searching a triangular array for a sub triangle having minimum sum](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)
 - [158: Exploring strings for which only one character comes lexicographically after its neighbor to the left](problems/0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)
 - [164: Numbers for which no three consecutive digits have a sum greater than a given value](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)
+- [173: Using up to one million tiles how many different hollow square laminae can be formed](problems/0173-using-up-to-one-million-tiles-how-many-different-hollow-square-laminae-can-be-formed)
 - [179: Consecutive positive divisors](problems/0179-consecutive-positive-divisors)
 - [183: Maximum product of parts](problems/0183-maximum-product-of-parts)
 - [185: Number mind](problems/0185-number-mind)
@@ -148,11 +149,14 @@ Problems Attempted: 160
 - [204: Generalised hamming numbers](problems/0204-generalised-hamming-numbers)
 - [205: Dice game](problems/0205-dice-game)
 - [206: Concealed square](problems/0206-concealed-square)
+- [214: Totient chains](problems/0214-totient-chains)
 - [218: Perfect right angled triangles](problems/0218-perfect-right-angled-triangles)
+- [230: Fibonacci words](problems/0230-fibonacci-words)
 - [235: An arithmetic geometric sequence](problems/0235-an-arithmetic-geometric-sequence)
 - [243: Resilience](problems/0243-resilience)
 - [258: A lagged fibonacci sequence](problems/0258-a-lagged-fibonacci-sequence)
 - [291: Panaitopol primes](problems/0291-panaitopol-primes)
+- [293: Pseudo fortunate numbers](problems/0293-pseudo-fortunate-numbers)
 - [294: Sum of digits experience 23](problems/0294-sum-of-digits-experience-23)
 - [301: Nim](problems/0301-nim)
 - [304: Primonacci](problems/0304-primonacci)
@@ -162,6 +166,7 @@ Problems Attempted: 160
 - [345: Matrix sum](problems/0345-matrix-sum)
 - [357: Prime generating integers](problems/0357-prime-generating-integers)
 - [378: Triangle triples](problems/0378-triangle-triples)
+- [381: Prime k factorial](problems/0381-prime-k-factorial)
 - [387: Harshad numbers](problems/0387-harshad-numbers)
 - [411: Uphill paths](problems/0411-uphill-paths)
 - [493: Under the rainbow](problems/0493-under-the-rainbow)
@@ -196,19 +201,19 @@ Problems Attempted: 160
 |||||[145](problems/0145-how-many-reversible-numbers-are-there-below-one-billion)|[146](problems/0146-investigating-a-prime-pattern)|||[149](problems/0149-searching-for-a-maximum-sum-subsequence)|[150](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
 ||||||||[158](problems/0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)|||
 ||||[164](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)|||||||
-|||||||||[179](problems/0179-consecutive-positive-divisors)||
+|||[173](problems/0173-using-up-to-one-million-tiles-how-many-different-hollow-square-laminae-can-be-formed)||||||[179](problems/0179-consecutive-positive-divisors)||
 |||[183](problems/0183-maximum-product-of-parts)||[185](problems/0185-number-mind)|[186](problems/0186-connectedness-of-a-network)|[187](problems/0187-semiprimes)|[188](problems/0188-the-hyperexponentiation-of-a-number)|||
 |[191](problems/0191-prize-strings)||||||||||
 |||[203](problems/0203-squarefree-binomial-coefficients)|[204](problems/0204-generalised-hamming-numbers)|[205](problems/0205-dice-game)|[206](problems/0206-concealed-square)|||||
-||||||||[218](problems/0218-perfect-right-angled-triangles)|||
-||||||||||<br>|
+||||[214](problems/0214-totient-chains)||||[218](problems/0218-perfect-right-angled-triangles)|||
+||||||||||[230](problems/0230-fibonacci-words)|
 |||||[235](problems/0235-an-arithmetic-geometric-sequence)||||||
 |||[243](problems/0243-resilience)||||||||
 ||||||||[258](problems/0258-a-lagged-fibonacci-sequence)|||
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
-|[291](problems/0291-panaitopol-primes)|||[294](problems/0294-sum-of-digits-experience-23)|||||||
+|[291](problems/0291-panaitopol-primes)||[293](problems/0293-pseudo-fortunate-numbers)|[294](problems/0294-sum-of-digits-experience-23)|||||||
 |[301](problems/0301-nim)|||[304](problems/0304-primonacci)|||||||
 |||||||[317](problems/0317-firecracker)||||
 |||[323](problems/0323-bitwise-or-operations-on-random-integers)||||||||
@@ -217,7 +222,7 @@ Problems Attempted: 160
 |||||||[357](problems/0357-prime-generating-integers)||||
 ||||||||||<br>|
 ||||||||[378](problems/0378-triangle-triples)|||
-|||||||[387](problems/0387-harshad-numbers)||||
+|[381](problems/0381-prime-k-factorial)||||||[387](problems/0387-harshad-numbers)||||
 ||||||||||<br>|
 ||||||||||<br>|
 |[411](problems/0411-uphill-paths)||||||||||

@@ -5,7 +5,7 @@
 import os, re
 
 totalNumProblems = 844
-incompleteProblems = set([113, 386, 262, 94, 61, 88, 190, 197, 227])
+incompleteProblems = set([113, 386, 262, 94, 61, 88, 197, 227, 148])
 
 problemFileRegex = re.compile(r'\d\d\d\d-[\w-]')
 romanNumeralsRegex = re.compile(r' M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')

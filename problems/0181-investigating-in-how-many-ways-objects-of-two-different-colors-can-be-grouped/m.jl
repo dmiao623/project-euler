@@ -10,7 +10,6 @@ function solve()
 		f[i+1,j+1,k+1] = f[i+1,j+1,k]
 		if i₀ > i || j₀ > j continue end
 		f[i+1,j+1,k+1] += f[i-i₀+1,j-j₀+1,k+1]
-		# println("$i $j $k ($i₀ $j₀): $(f[i+1,j+1,k+1])")
 	end
 	f[n1,m1,n1*m1]
 end

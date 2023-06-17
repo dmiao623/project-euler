@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+
+WLOG, assume that $a\geq b>n$. Then, define positive integers $\alpha=n-a$ and $\beta=n-b$. We have
+\begin{align*}
+	\frac 1 n&=\frac 1 a+\frac 1 b\\
+	\frac 1 n&=\frac{1}{n-\alpha}+\frac{1}{n-\beta}\\
+	(n-\alpha)(n-\beta)&=n(n-\beta)+n(n-\alpha)\\
+	n^2-(\alpha+\beta)n+\alpha\beta&=n^2-\beta n+n^2-\alpha n\\
+	\alpha\beta&=n^2\\
+\end{align*}
+
+Thus, the number of solutions for $n$ is the number of divisors of $n^2$. This can be computed efficiently using the \texttt{least_factor} sequence and a simple DP. 
+
+\end{document}

@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+
+The initial constraints of $45$ suggests a meet-in-the-middle or an enumerative approach. For the first $80$ value, we can try to preprocess the list to reduce it to a manageable size.
+
+Assume we have some fraction $a/b$ with $0\leq a<b$ and $0<b$. Adding a term $x^2$ will result in $\frac{ax^2+b}{bx^2}$. If $\gcd(b,x)=1$, then at least one more term is required to cancel the $x^2$ from the denominator. 
+
+This fact immediately eliminates any prime $p$ above $40$, as there is no other number with a factor of $p$ in the set. 
+
+More generally, consider for some prime $p$ the set $\{x^{-2}|x\in[2,80]\land p\setminus x\}$. If for all subsets, the denominator of the simplified sum retains a factor of $p^2$, then all numbers in the set are impossible. Moreover, over all primes, if a number fails to show up in any valid set (a set with no factor of $p^2$), then that number is necessarily impossible. These sets can be checked via brute force in $\mathcal{O}(2^{\lfloor 80/p\rfloor})$. 
+
+The resulting set, having eliminated numbers described above, has around $40$ elements. This is enough to process with a meet-in-the-middle algorithm: split the remaining numbers into two sets of equal size, process and store all possible sums of subsets, and count the pairs that add to $1/2$ using a two-pointer algorithm.
+
+\end{document}

@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+
+Firstly, for a given array $a$ of length $n$, there is an $\mathcal{O}(n)$ to find $\sum_{i=1}^n\sum_{j=i}^nA(i,j)$ using monotonic stacks. For each element, we find the closest element to its left and right that are larger, which determines the range in which it is the minimum. 
+
+Unfortunately, $2\cdot 10^9$ is too large for this to fit within the one-minute constraint (especially because stacks in Julia have a high constant factor). We can instead take advantage of the pseudo-random generator. A quick brute force shows that the sequence has a period of $629527$ which attains a minimum value of $3$. 
+
+This implies that any subarray of length at least $629527$ has an answer of $3$. We can compute the answer for each cycle between the $3$-s, as well as the prefix and suffix.
+
+\end{document}

@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+
+Consider taking the log of both sides of the inequality:
+
+\begin{align*}
+p^qq^p &< a^b\\
+q\log p + p\log q &< b\log a
+\end{align*}
+
+We can iterate over all $p$ and binary search for the maximum allowed value of $q$. 
+
+\end{document}

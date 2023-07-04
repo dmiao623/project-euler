@@ -7,7 +7,6 @@ function solve()
 	f[1] = f[2] = f[3] = g[3] = 1
 	σf₁, σf₂ = f[2], f[1] + f[3]
 	σg₁, σg₂ = g[2], g[1] + g[3]
-	@assert 0 == Mod{10^6}(0)
 	for i ∈ 3:n
 		f[i+1] = σf₁ - (i<4 ? 0 : f[i-4+1]) + 1
 		σf₁ += f[i+1]

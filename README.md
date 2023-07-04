@@ -16,9 +16,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 157
+Problems Solved: 198
 
-Problems Attempted: 166
+Problems Attempted: 203
 
 <details><summary>List of Solved Problems</summary>
 
@@ -82,6 +82,7 @@ Problems Attempted: 166
 - [58: Spiral primes](problems/0058-spiral-primes)
 - [59: Xor decryption](problems/0059-xor-decryption)
 - [60: Prime pair sets](problems/0060-prime-pair-sets)
+- [61: Cyclical figurate numbers](problems/0061-cyclical-figurate-numbers)
 - [62: Cubic permutations](problems/0062-cubic-permutations)
 - [63: Powerful digits count](problems/0063-powerful-digits-count)
 - [64: Odd period square roots](problems/0064-odd-period-square-roots)
@@ -105,20 +106,26 @@ Problems Attempted: 166
 - [82: Path sum three ways](problems/0082-path-sum-three-ways)
 - [83: Path sum four ways](problems/0083-path-sum-four-ways)
 - [85: Counting rectangles](problems/0085-counting-rectangles)
+- [86: Cuboid route](problems/0086-cuboid-route)
 - [87: Prime power triples](problems/0087-prime-power-triples)
 - [89: Roman numerals](problems/0089-roman-numerals)
 - [90: Cube digit pairs](problems/0090-cube-digit-pairs)
 - [91: Right triangles with integer coordinates](problems/0091-right-triangles-with-integer-coordinates)
 - [92: Square digit chains](problems/0092-square-digit-chains)
 - [93: Arithmetic expressions](problems/0093-arithmetic-expressions)
+- [94: Almost equilateral triangles](problems/0094-almost-equilateral-triangles)
 - [95: Amicable chains](problems/0095-amicable-chains)
 - [96: Su doku](problems/0096-su-doku)
 - [97: Large non mersenne prime](problems/0097-large-non-mersenne-prime)
 - [99: Largest exponential](problems/0099-largest-exponential)
+- [100: Arranged probability](problems/0100-arranged-probability)
 - [101: Optimum polynomial](problems/0101-optimum-polynomial)
 - [102: Triangle containment](problems/0102-triangle-containment)
+- [103: Special subset sums optimum](problems/0103-special-subset-sums-optimum)
 - [104: Pandigital fibonacci ends](problems/0104-pandigital-fibonacci-ends)
+- [105: Special subset sum testing](problems/0105-special-subset-sum-testing)
 - [107: Minimal network](problems/0107-minimal-network)
+- [108: Diophantine reciprocals I](problems/0108-diophantine-reciprocals-i)
 - [112: Bouncy numbers](problems/0112-bouncy-numbers)
 - [114: Counting block combinations I](problems/0114-counting-block-combinations-i)
 - [115: Counting block combinations II](problems/0115-counting-block-combinations-ii)
@@ -127,54 +134,88 @@ Problems Attempted: 166
 - [119: Digit power sum](problems/0119-digit-power-sum)
 - [120: Square remainders](problems/0120-square-remainders)
 - [121: Disc game prize fund](problems/0121-disc-game-prize-fund)
+- [122: Efficient exponentiation](problems/0122-efficient-exponentiation)
 - [123: Prime square remainders](problems/0123-prime-square-remainders)
 - [124: Ordered radicals](problems/0124-ordered-radicals)
 - [125: Palindromic sums](problems/0125-palindromic-sums)
 - [131: Prime cube partnership](problems/0131-prime-cube-partnership)
+- [132: Large repunit factors](problems/0132-large-repunit-factors)
+- [133: Repunit nonfactors](problems/0133-repunit-nonfactors)
+- [134: Prime pair connection](problems/0134-prime-pair-connection)
+- [135: Same differences](problems/0135-same-differences)
+- [136: Singleton difference](problems/0136-singleton-difference)
+- [142: Perfect square collection](problems/0142-perfect-square-collection)
 - [145: How many reversible numbers are there below one billion](problems/0145-how-many-reversible-numbers-are-there-below-one-billion)
 - [146: Investigating a prime pattern](problems/0146-investigating-a-prime-pattern)
+- [148: Exploring pascals triangle](problems/0148-exploring-pascals-triangle)
 - [149: Searching for a maximum sum subsequence](problems/0149-searching-for-a-maximum-sum-subsequence)
 - [150: Searching a triangular array for a sub triangle having minimum sum](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)
+- [152: Writing 1 2 as a sum of inverse squares](problems/0152-writing-1-2-as-a-sum-of-inverse-squares)
 - [158: Exploring strings for which only one character comes lexicographically after its neighbor to the left](problems/0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)
 - [164: Numbers for which no three consecutive digits have a sum greater than a given value](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)
+- [172: Investigating numbers with few repeated digits](problems/0172-investigating-numbers-with-few-repeated-digits)
 - [173: Using up to one million tiles how many different hollow square laminae can be formed](problems/0173-using-up-to-one-million-tiles-how-many-different-hollow-square-laminae-can-be-formed)
+- [174: Counting the number of hollow square laminae that can form one two three distinct arrangements](problems/0174-counting-the-number-of-hollow-square-laminae-that-can-form-one-two-three-distinct-arrangements)
+- [178: Step numbers](problems/0178-step-numbers)
 - [179: Consecutive positive divisors](problems/0179-consecutive-positive-divisors)
+- [181: Investigating in how many ways objects of two different colors can be grouped](problems/0181-investigating-in-how-many-ways-objects-of-two-different-colors-can-be-grouped)
 - [183: Maximum product of parts](problems/0183-maximum-product-of-parts)
 - [185: Number mind](problems/0185-number-mind)
 - [186: Connectedness of a network](problems/0186-connectedness-of-a-network)
 - [187: Semiprimes](problems/0187-semiprimes)
 - [188: The hyperexponentiation of a number](problems/0188-the-hyperexponentiation-of-a-number)
+- [189: Tri colouring a triangular grid](problems/0189-tri-colouring-a-triangular-grid)
+- [190: Maximising a weighted product](problems/0190-maximising-a-weighted-product)
 - [191: Prize strings](problems/0191-prize-strings)
+- [197: Investigating the behavior of a recursively defined sequence](problems/0197-investigating-the-behavior-of-a-recursively-defined-sequence)
+- [201: Subsets with a unique sum](problems/0201-subsets-with-a-unique-sum)
 - [203: Squarefree binomial coefficients](problems/0203-squarefree-binomial-coefficients)
 - [204: Generalised hamming numbers](problems/0204-generalised-hamming-numbers)
 - [205: Dice game](problems/0205-dice-game)
 - [206: Concealed square](problems/0206-concealed-square)
+- [211: Divisor square sum](problems/0211-divisor-square-sum)
 - [214: Totient chains](problems/0214-totient-chains)
 - [218: Perfect right angled triangles](problems/0218-perfect-right-angled-triangles)
 - [230: Fibonacci words](problems/0230-fibonacci-words)
 - [235: An arithmetic geometric sequence](problems/0235-an-arithmetic-geometric-sequence)
 - [243: Resilience](problems/0243-resilience)
+- [249: Prime subset sums](problems/0249-prime-subset-sums)
 - [258: A lagged fibonacci sequence](problems/0258-a-lagged-fibonacci-sequence)
+- [259: Reachable numbers](problems/0259-reachable-numbers)
+- [260: Stone game](problems/0260-stone-game)
+- [266: Pseudo square root](problems/0266-pseudo-square-root)
 - [291: Panaitopol primes](problems/0291-panaitopol-primes)
 - [293: Pseudo fortunate numbers](problems/0293-pseudo-fortunate-numbers)
 - [294: Sum of digits experience 23](problems/0294-sum-of-digits-experience-23)
 - [301: Nim](problems/0301-nim)
+- [303: Multiples with small digits](problems/0303-multiples-with-small-digits)
 - [304: Primonacci](problems/0304-primonacci)
 - [317: Firecracker](problems/0317-firecracker)
 - [323: Bitwise or operations on random integers](problems/0323-bitwise-or-operations-on-random-integers)
+- [324: Building a tower](problems/0324-building-a-tower)
+- [329: Prime frog](problems/0329-prime-frog)
 - [337: Totient squarestep sequence](problems/0337-totient-squarestep-sequence)
 - [345: Matrix sum](problems/0345-matrix-sum)
+- [351: Hexagonal orchards](problems/0351-hexagonal-orchards)
 - [357: Prime generating integers](problems/0357-prime-generating-integers)
+- [375: Minimum of subsequences](problems/0375-minimum-of-subsequences)
 - [378: Triangle triples](problems/0378-triangle-triples)
 - [381: Prime k factorial](problems/0381-prime-k-factorial)
 - [387: Harshad numbers](problems/0387-harshad-numbers)
+- [408: Admissible paths through a grid](problems/0408-admissible-paths-through-a-grid)
 - [411: Uphill paths](problems/0411-uphill-paths)
+- [429: Sum of squares of unitary divisors](problems/0429-sum-of-squares-of-unitary-divisors)
 - [493: Under the rainbow](problems/0493-under-the-rainbow)
 - [497: Drunken tower of hanoi](problems/0497-drunken-tower-of-hanoi)
 - [500: Problem 500](problems/0500-problem-500)
 - [504: Square on the inside](problems/0504-square-on-the-inside)
 - [577: Counting hexigons](problems/0577-counting-hexigons)
+- [587: Concave triangle](problems/0587-concave-triangle)
+- [657: Incomplete words](problems/0657-incomplete-words)
 - [686: Powers of two](problems/0686-powers-of-two)
+- [700: Eulercoin](problems/0700-eulercoin)
+- [710: One million members](problems/0710-one-million-members)
+- [800: Hybrid integers](problems/0800-hybrid-integers)
 - [808: Reversible prime squares](problems/0808-reversible-prime-squares)
 - [816: Shortest distance among points](problems/0816-shortest-distance-among-points)
 - [828: Numbers challenge](problems/0828-numbers-challenge)
@@ -191,43 +232,43 @@ Problems Attempted: 166
 |[31](problems/0031-coin-sums)|[32](problems/0032-pandigital-products)|[33](problems/0033-digit-cancelling-fractions)|[34](problems/0034-digit-factorials)|[35](problems/0035-circular-primes)|[36](problems/0036-double-base-polindrome)|[37](problems/0037-truncatable-primes)|[38](problems/0038-pandigital-multiples)|[39](problems/0039-integer-right-triangles)|[40](problems/0040-champernownes-constant)|
 |[41](problems/0041-pandigital-prime)|[42](problems/0042-coded-triangle-numbers)|[43](problems/0043-sub-string-divisibility)|[44](problems/0044-pentagon-numbers)|[45](problems/0045-triangular-pentagonal-and-hexagonal)|[46](problems/0046-goldbacks-other-conjecture)|[47](problems/0047-distinct-prime-factors)|[48](problems/0048-self-powers)|[49](problems/0049-prime-permutations)|[50](problems/0050-consecutive-prime-sum)|
 |[51](problems/0051-prime-digit-replacements)|[52](problems/0052-permuted-multiples)|[53](problems/0053-combinatoric-selections)|[54](problems/0054-poker-hands)|[55](problems/0055-lychrel-numbers)|[56](problems/0056-powerful-digit-sum)|[57](problems/0057-square-roots-convergents)|[58](problems/0058-spiral-primes)|[59](problems/0059-xor-decryption)|[60](problems/0060-prime-pair-sets)|
-||[62](problems/0062-cubic-permutations)|[63](problems/0063-powerful-digits-count)|[64](problems/0064-odd-period-square-roots)|[65](problems/0065-convergents-of-e)|[66](problems/0066-diophantine-equation)|[67](problems/0067-maximum-path-sum-ii)|[68](problems/0068-magic-5-gon-ring)|[69](problems/0069-totient-maximum)|[70](problems/0070-totient-permutation)|
+|[61](problems/0061-cyclical-figurate-numbers)|[62](problems/0062-cubic-permutations)|[63](problems/0063-powerful-digits-count)|[64](problems/0064-odd-period-square-roots)|[65](problems/0065-convergents-of-e)|[66](problems/0066-diophantine-equation)|[67](problems/0067-maximum-path-sum-ii)|[68](problems/0068-magic-5-gon-ring)|[69](problems/0069-totient-maximum)|[70](problems/0070-totient-permutation)|
 |[71](problems/0071-ordered-fractions)|[72](problems/0072-counting-fractions)|[73](problems/0073-counting-fractions-in-a-range)|[74](problems/0074-digit-factorial-chains)|[75](problems/0075-singular-integer-right-triangles)|[76](problems/0076-counting-summations)|[77](problems/0077-prime-summations)|[78](problems/0078-coin-partitions)|[79](problems/0079-password-derivation)|[80](problems/0080-square-root-digital-expansion)|
-|[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)||[87](problems/0087-prime-power-triples)||[89](problems/0089-roman-numerals)|[90](problems/0090-cube-digit-pairs)|
-|[91](problems/0091-right-triangles-with-integer-coordinates)|[92](problems/0092-square-digit-chains)|[93](problems/0093-arithmetic-expressions)||[95](problems/0095-amicable-chains)|[96](problems/0096-su-doku)|[97](problems/0097-large-non-mersenne-prime)||[99](problems/0099-largest-exponential)||
-|[101](problems/0101-optimum-polynomial)|[102](problems/0102-triangle-containment)||[104](problems/0104-pandigital-fibonacci-ends)|||[107](problems/0107-minimal-network)||||
+|[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)|[86](problems/0086-cuboid-route)|[87](problems/0087-prime-power-triples)||[89](problems/0089-roman-numerals)|[90](problems/0090-cube-digit-pairs)|
+|[91](problems/0091-right-triangles-with-integer-coordinates)|[92](problems/0092-square-digit-chains)|[93](problems/0093-arithmetic-expressions)|[94](problems/0094-almost-equilateral-triangles)|[95](problems/0095-amicable-chains)|[96](problems/0096-su-doku)|[97](problems/0097-large-non-mersenne-prime)||[99](problems/0099-largest-exponential)|[100](problems/0100-arranged-probability)|
+|[101](problems/0101-optimum-polynomial)|[102](problems/0102-triangle-containment)|[103](problems/0103-special-subset-sums-optimum)|[104](problems/0104-pandigital-fibonacci-ends)|[105](problems/0105-special-subset-sum-testing)||[107](problems/0107-minimal-network)|[108](problems/0108-diophantine-reciprocals-i)|||
 ||[112](problems/0112-bouncy-numbers)||[114](problems/0114-counting-block-combinations-i)|[115](problems/0115-counting-block-combinations-ii)|[116](problems/0116-red-green-or-blue-tiles)|[117](problems/0117-red-green-and-blue-tiles)||[119](problems/0119-digit-power-sum)|[120](problems/0120-square-remainders)|
-|[121](problems/0121-disc-game-prize-fund)||[123](problems/0123-prime-square-remainders)|[124](problems/0124-ordered-radicals)|[125](problems/0125-palindromic-sums)||||||
-|[131](problems/0131-prime-cube-partnership)||||||||||
-|||||[145](problems/0145-how-many-reversible-numbers-are-there-below-one-billion)|[146](problems/0146-investigating-a-prime-pattern)|||[149](problems/0149-searching-for-a-maximum-sum-subsequence)|[150](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
-||||||||[158](problems/0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)|||
+|[121](problems/0121-disc-game-prize-fund)|[122](problems/0122-efficient-exponentiation)|[123](problems/0123-prime-square-remainders)|[124](problems/0124-ordered-radicals)|[125](problems/0125-palindromic-sums)||||||
+|[131](problems/0131-prime-cube-partnership)|[132](problems/0132-large-repunit-factors)|[133](problems/0133-repunit-nonfactors)|[134](problems/0134-prime-pair-connection)|[135](problems/0135-same-differences)|[136](problems/0136-singleton-difference)|||||
+||[142](problems/0142-perfect-square-collection)|||[145](problems/0145-how-many-reversible-numbers-are-there-below-one-billion)|[146](problems/0146-investigating-a-prime-pattern)||[148](problems/0148-exploring-pascals-triangle)|[149](problems/0149-searching-for-a-maximum-sum-subsequence)|[150](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
+||[152](problems/0152-writing-1-2-as-a-sum-of-inverse-squares)||||||[158](problems/0158-exploring-strings-for-which-only-one-character-comes-lexicographically-after-its-neighbor-to-the-left)|||
 ||||[164](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)|||||||
-|||[173](problems/0173-using-up-to-one-million-tiles-how-many-different-hollow-square-laminae-can-be-formed)||||||[179](problems/0179-consecutive-positive-divisors)||
-|||[183](problems/0183-maximum-product-of-parts)||[185](problems/0185-number-mind)|[186](problems/0186-connectedness-of-a-network)|[187](problems/0187-semiprimes)|[188](problems/0188-the-hyperexponentiation-of-a-number)|||
-|[191](problems/0191-prize-strings)||||||||||
-|||[203](problems/0203-squarefree-binomial-coefficients)|[204](problems/0204-generalised-hamming-numbers)|[205](problems/0205-dice-game)|[206](problems/0206-concealed-square)|||||
-||||[214](problems/0214-totient-chains)||||[218](problems/0218-perfect-right-angled-triangles)|||
+||[172](problems/0172-investigating-numbers-with-few-repeated-digits)|[173](problems/0173-using-up-to-one-million-tiles-how-many-different-hollow-square-laminae-can-be-formed)|[174](problems/0174-counting-the-number-of-hollow-square-laminae-that-can-form-one-two-three-distinct-arrangements)||||[178](problems/0178-step-numbers)|[179](problems/0179-consecutive-positive-divisors)||
+|[181](problems/0181-investigating-in-how-many-ways-objects-of-two-different-colors-can-be-grouped)||[183](problems/0183-maximum-product-of-parts)||[185](problems/0185-number-mind)|[186](problems/0186-connectedness-of-a-network)|[187](problems/0187-semiprimes)|[188](problems/0188-the-hyperexponentiation-of-a-number)|[189](problems/0189-tri-colouring-a-triangular-grid)|[190](problems/0190-maximising-a-weighted-product)|
+|[191](problems/0191-prize-strings)||||||[197](problems/0197-investigating-the-behavior-of-a-recursively-defined-sequence)||||
+|[201](problems/0201-subsets-with-a-unique-sum)||[203](problems/0203-squarefree-binomial-coefficients)|[204](problems/0204-generalised-hamming-numbers)|[205](problems/0205-dice-game)|[206](problems/0206-concealed-square)|||||
+|[211](problems/0211-divisor-square-sum)|||[214](problems/0214-totient-chains)||||[218](problems/0218-perfect-right-angled-triangles)|||
 ||||||||||[230](problems/0230-fibonacci-words)|
 |||||[235](problems/0235-an-arithmetic-geometric-sequence)||||||
-|||[243](problems/0243-resilience)||||||||
-||||||||[258](problems/0258-a-lagged-fibonacci-sequence)|||
-||||||||||<br>|
+|||[243](problems/0243-resilience)||||||[249](problems/0249-prime-subset-sums)||
+||||||||[258](problems/0258-a-lagged-fibonacci-sequence)|[259](problems/0259-reachable-numbers)|[260](problems/0260-stone-game)|
+||||||[266](problems/0266-pseudo-square-root)|||||
 ||||||||||<br>|
 ||||||||||<br>|
 |[291](problems/0291-panaitopol-primes)||[293](problems/0293-pseudo-fortunate-numbers)|[294](problems/0294-sum-of-digits-experience-23)|||||||
-|[301](problems/0301-nim)|||[304](problems/0304-primonacci)|||||||
+|[301](problems/0301-nim)||[303](problems/0303-multiples-with-small-digits)|[304](problems/0304-primonacci)|||||||
 |||||||[317](problems/0317-firecracker)||||
-|||[323](problems/0323-bitwise-or-operations-on-random-integers)||||||||
+|||[323](problems/0323-bitwise-or-operations-on-random-integers)|[324](problems/0324-building-a-tower)|||||[329](problems/0329-prime-frog)||
 |||||||[337](problems/0337-totient-squarestep-sequence)||||
 |||||[345](problems/0345-matrix-sum)||||||
-|||||||[357](problems/0357-prime-generating-integers)||||
+|[351](problems/0351-hexagonal-orchards)||||||[357](problems/0357-prime-generating-integers)||||
 ||||||||||<br>|
-||||||||[378](problems/0378-triangle-triples)|||
+|||||[375](problems/0375-minimum-of-subsequences)|||[378](problems/0378-triangle-triples)|||
 |[381](problems/0381-prime-k-factorial)||||||[387](problems/0387-harshad-numbers)||||
 ||||||||||<br>|
-||||||||||<br>|
+||||||||[408](problems/0408-admissible-paths-through-a-grid)|||
 |[411](problems/0411-uphill-paths)||||||||||
-||||||||||<br>|
+|||||||||[429](problems/0429-sum-of-squares-of-unitary-divisors)||
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
@@ -243,17 +284,19 @@ Problems Attempted: 166
 ||||||||||<br>|
 ||||||||||<br>|
 |||||||[577](problems/0577-counting-hexigons)||||
+|||||||[587](problems/0587-concave-triangle)||||
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
-||||||||||<br>|
+|||||||[657](problems/0657-incomplete-words)||||
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||[686](problems/0686-powers-of-two)|||||
+||||||||||[700](problems/0700-eulercoin)|
+||||||||||[710](problems/0710-one-million-members)|
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
@@ -262,9 +305,7 @@ Problems Attempted: 166
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
-||||||||||<br>|
-||||||||||<br>|
+||||||||||[800](problems/0800-hybrid-integers)|
 ||||||||[808](problems/0808-reversible-prime-squares)|||
 ||||||[816](problems/0816-shortest-distance-among-points)|||||
 ||||||||[828](problems/0828-numbers-challenge)|||

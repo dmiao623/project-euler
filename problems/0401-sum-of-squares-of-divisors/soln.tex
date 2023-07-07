@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+
+Let $\sigma_2(n)=\sum_{k\backslash n}k^2$. Then, $\sigma_2(n)$ can be expressed as the Dirichlet convolution of $1$ and $n^2$. To find the $1n=10^{15}$-th prefix sum of $\sigma_2$, consider $$\sum_{i=1}^n\sum_{k\backslash i}k^2=\sum_{ij\leq n}j^2$$. 
+
+Since one of $i$, $j$ must be at most $\lfloor \sqrt{n}\rfloor$, we can express this as $$\sum_{ij\leq n}j^2=\sum_{i=1}^{\lfloor\sqrt{n}\rfloor}\left(1\cdot\sum_{j=1}^{\lfloor n/i\rfloor}j^2\right)+\sum_{j=1}^{\lfloor\sqrt{n}\rfloor}\left(j^2\cdot\sum_{i=1}^{\lfloor n/i \rfloor}1\right)-\sum_{i=1}^{\lfloor\sqrt{n}\rfloor}1\sum_{j=1}^{\lfloor\sqrt{n}\rfloor}j^2.$$
+
+Let $\rho_2(n)=\sum_{i=1}^n\sigma_2(n)$. Then, the above expression becomes $$\sum_{i=1}^{\lfloor\sqrt{n}\rfloor}\rho_2(\lfloor n/i \rfloor)+\sum_{j=1}^{\lfloor\sqrt{n}\rfloor}j^2\cdot\lfloor n/i\rfloor-\lfloor\sqrt{n}\rfloor\cdot\rho_2(\lfloor\sqrt{n}\rfloor)$$.
+
+This sum can be evaluated in $\mathcal{O}(\sqrt{n})$. 
+
+\end{document}

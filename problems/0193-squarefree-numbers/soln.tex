@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+
+A number $n$ is squarefree if and only if $\lvert \mu(n)\rvert=1$, where $\mu$ is the Mobius function. Computing the Mobius function in linear time (using a linear sieve) would yield an $\mathcal{O}(n)$, which is too slow. 
+
+Instead, consider enumerating the square divisor of a number. Using principle of inclusion-exclusion, we can subtract squarefree numbers that have an odd number of factors, and add squarefree numbers that have an even number of factors. In other words, the answer is $$\sum_{i=1}^{\sqrt{n}}\mu(i)\cdot \left\lfloor\frac{n}{i^2}\right\rfloor.$$
+
+\end{document}

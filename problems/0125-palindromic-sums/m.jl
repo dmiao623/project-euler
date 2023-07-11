@@ -13,7 +13,7 @@ function solve(n)
 
 	q = Set()
 	r, k = 0, 0
-	for i ∈ 1:length(p)
+	for i ∈ eachindex(p)
 		for j ∈ i+2:length(p)
 			if p[j] - p[i] >= n break end
 			if palindrome(p[j] - p[i]) push!(q, p[j] - p[i]); end
@@ -22,6 +22,6 @@ function solve(n)
 	sum(q)
 end
 
-open("answer.txt", "w") do af
-	write(af, string(solve(10 ^ 8)))
-end
+@time ans = string(solve(10^8))
+open("answer.txt", "w") do af write(af, ans) end
+println(ans)

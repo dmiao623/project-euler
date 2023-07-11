@@ -26,6 +26,4 @@ function solve(n)
 	r
 end
 
-open("answer.txt", "w") as af
-	write(af, solve(10 ^ 9))
-end
+@time open("answer.txt", "w") do af write(af, solve(10 ^ 9)) end

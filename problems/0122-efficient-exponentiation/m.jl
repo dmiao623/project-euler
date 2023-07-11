@@ -13,7 +13,7 @@ function solve()
 	while f < 200
 		u = dequeue!(q)
 		m = last(u)
-		for i ∈ 1:length(u), j ∈ i:length(u)
+		for i ∈ eachindex(u), j ∈ i:length(u)
 			if u[i] + u[j] <= m || u[i] + u[j] > 200 continue end
 			if k[u[i] + u[j]] == -1 
 				k[u[i] + u[j]] = length(u)
@@ -25,6 +25,6 @@ function solve()
 	return sum(k)
 end
 
-open("answer.txt", "w") do af
-	write(af, string(solve()))
-end
+@time ans = string(solve())
+open("answer.txt", "w") do af write(af, ans) end
+println(ans)

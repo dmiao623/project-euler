@@ -16,9 +16,9 @@ I use a 2019 16-inch MacBook with a 2.6 GHz 6-Core Intel Core i7. Python codes a
 ## Statistics
 
 
-Problems Solved: 198
+Problems Solved: 206
 
-Problems Attempted: 203
+Problems Attempted: 210
 
 <details><summary>List of Solved Problems</summary>
 
@@ -126,7 +126,9 @@ Problems Attempted: 203
 - [105: Special subset sum testing](problems/0105-special-subset-sum-testing)
 - [107: Minimal network](problems/0107-minimal-network)
 - [108: Diophantine reciprocals I](problems/0108-diophantine-reciprocals-i)
+- [110: Diophantine reciprocals II](problems/0110-diophantine-reciprocals-ii)
 - [112: Bouncy numbers](problems/0112-bouncy-numbers)
+- [113: Non bouncy numbers](problems/0113-non-bouncy-numbers)
 - [114: Counting block combinations I](problems/0114-counting-block-combinations-i)
 - [115: Counting block combinations II](problems/0115-counting-block-combinations-ii)
 - [116: Red green or blue tiles](problems/0116-red-green-or-blue-tiles)
@@ -167,6 +169,7 @@ Problems Attempted: 203
 - [189: Tri colouring a triangular grid](problems/0189-tri-colouring-a-triangular-grid)
 - [190: Maximising a weighted product](problems/0190-maximising-a-weighted-product)
 - [191: Prize strings](problems/0191-prize-strings)
+- [193: Squarefree numbers](problems/0193-squarefree-numbers)
 - [197: Investigating the behavior of a recursively defined sequence](problems/0197-investigating-the-behavior-of-a-recursively-defined-sequence)
 - [201: Subsets with a unique sum](problems/0201-subsets-with-a-unique-sum)
 - [203: Squarefree binomial coefficients](problems/0203-squarefree-binomial-coefficients)
@@ -184,6 +187,7 @@ Problems Attempted: 203
 - [259: Reachable numbers](problems/0259-reachable-numbers)
 - [260: Stone game](problems/0260-stone-game)
 - [266: Pseudo square root](problems/0266-pseudo-square-root)
+- [267: Billionaire](problems/0267-billionaire)
 - [291: Panaitopol primes](problems/0291-panaitopol-primes)
 - [293: Pseudo fortunate numbers](problems/0293-pseudo-fortunate-numbers)
 - [294: Sum of digits experience 23](problems/0294-sum-of-digits-experience-23)
@@ -202,9 +206,11 @@ Problems Attempted: 203
 - [378: Triangle triples](problems/0378-triangle-triples)
 - [381: Prime k factorial](problems/0381-prime-k-factorial)
 - [387: Harshad numbers](problems/0387-harshad-numbers)
+- [401: Sum of squares of divisors](problems/0401-sum-of-squares-of-divisors)
 - [408: Admissible paths through a grid](problems/0408-admissible-paths-through-a-grid)
 - [411: Uphill paths](problems/0411-uphill-paths)
 - [429: Sum of squares of unitary divisors](problems/0429-sum-of-squares-of-unitary-divisors)
+- [457: A polynomial modulo the square of a prime](problems/0457-a-polynomial-modulo-the-square-of-a-prime)
 - [493: Under the rainbow](problems/0493-under-the-rainbow)
 - [497: Drunken tower of hanoi](problems/0497-drunken-tower-of-hanoi)
 - [500: Problem 500](problems/0500-problem-500)
@@ -215,6 +221,8 @@ Problems Attempted: 203
 - [686: Powers of two](problems/0686-powers-of-two)
 - [700: Eulercoin](problems/0700-eulercoin)
 - [710: One million members](problems/0710-one-million-members)
+- [733: Ascending subsequences](problems/0733-ascending-subsequences)
+- [743: Window into a matrix](problems/0743-window-into-a-matrix)
 - [800: Hybrid integers](problems/0800-hybrid-integers)
 - [808: Reversible prime squares](problems/0808-reversible-prime-squares)
 - [816: Shortest distance among points](problems/0816-shortest-distance-among-points)
@@ -236,8 +244,8 @@ Problems Attempted: 203
 |[71](problems/0071-ordered-fractions)|[72](problems/0072-counting-fractions)|[73](problems/0073-counting-fractions-in-a-range)|[74](problems/0074-digit-factorial-chains)|[75](problems/0075-singular-integer-right-triangles)|[76](problems/0076-counting-summations)|[77](problems/0077-prime-summations)|[78](problems/0078-coin-partitions)|[79](problems/0079-password-derivation)|[80](problems/0080-square-root-digital-expansion)|
 |[81](problems/0081-path-sum-two-ways)|[82](problems/0082-path-sum-three-ways)|[83](problems/0083-path-sum-four-ways)||[85](problems/0085-counting-rectangles)|[86](problems/0086-cuboid-route)|[87](problems/0087-prime-power-triples)||[89](problems/0089-roman-numerals)|[90](problems/0090-cube-digit-pairs)|
 |[91](problems/0091-right-triangles-with-integer-coordinates)|[92](problems/0092-square-digit-chains)|[93](problems/0093-arithmetic-expressions)|[94](problems/0094-almost-equilateral-triangles)|[95](problems/0095-amicable-chains)|[96](problems/0096-su-doku)|[97](problems/0097-large-non-mersenne-prime)||[99](problems/0099-largest-exponential)|[100](problems/0100-arranged-probability)|
-|[101](problems/0101-optimum-polynomial)|[102](problems/0102-triangle-containment)|[103](problems/0103-special-subset-sums-optimum)|[104](problems/0104-pandigital-fibonacci-ends)|[105](problems/0105-special-subset-sum-testing)||[107](problems/0107-minimal-network)|[108](problems/0108-diophantine-reciprocals-i)|||
-||[112](problems/0112-bouncy-numbers)||[114](problems/0114-counting-block-combinations-i)|[115](problems/0115-counting-block-combinations-ii)|[116](problems/0116-red-green-or-blue-tiles)|[117](problems/0117-red-green-and-blue-tiles)||[119](problems/0119-digit-power-sum)|[120](problems/0120-square-remainders)|
+|[101](problems/0101-optimum-polynomial)|[102](problems/0102-triangle-containment)|[103](problems/0103-special-subset-sums-optimum)|[104](problems/0104-pandigital-fibonacci-ends)|[105](problems/0105-special-subset-sum-testing)||[107](problems/0107-minimal-network)|[108](problems/0108-diophantine-reciprocals-i)||[110](problems/0110-diophantine-reciprocals-ii)|
+||[112](problems/0112-bouncy-numbers)|[113](problems/0113-non-bouncy-numbers)|[114](problems/0114-counting-block-combinations-i)|[115](problems/0115-counting-block-combinations-ii)|[116](problems/0116-red-green-or-blue-tiles)|[117](problems/0117-red-green-and-blue-tiles)||[119](problems/0119-digit-power-sum)|[120](problems/0120-square-remainders)|
 |[121](problems/0121-disc-game-prize-fund)|[122](problems/0122-efficient-exponentiation)|[123](problems/0123-prime-square-remainders)|[124](problems/0124-ordered-radicals)|[125](problems/0125-palindromic-sums)||||||
 |[131](problems/0131-prime-cube-partnership)|[132](problems/0132-large-repunit-factors)|[133](problems/0133-repunit-nonfactors)|[134](problems/0134-prime-pair-connection)|[135](problems/0135-same-differences)|[136](problems/0136-singleton-difference)|||||
 ||[142](problems/0142-perfect-square-collection)|||[145](problems/0145-how-many-reversible-numbers-are-there-below-one-billion)|[146](problems/0146-investigating-a-prime-pattern)||[148](problems/0148-exploring-pascals-triangle)|[149](problems/0149-searching-for-a-maximum-sum-subsequence)|[150](problems/0150-searching-a-triangular-array-for-a-sub-triangle-having-minimum-sum)|
@@ -245,14 +253,14 @@ Problems Attempted: 203
 ||||[164](problems/0164-numbers-for-which-no-three-consecutive-digits-have-a-sum-greater-than-a-given-value)|||||||
 ||[172](problems/0172-investigating-numbers-with-few-repeated-digits)|[173](problems/0173-using-up-to-one-million-tiles-how-many-different-hollow-square-laminae-can-be-formed)|[174](problems/0174-counting-the-number-of-hollow-square-laminae-that-can-form-one-two-three-distinct-arrangements)||||[178](problems/0178-step-numbers)|[179](problems/0179-consecutive-positive-divisors)||
 |[181](problems/0181-investigating-in-how-many-ways-objects-of-two-different-colors-can-be-grouped)||[183](problems/0183-maximum-product-of-parts)||[185](problems/0185-number-mind)|[186](problems/0186-connectedness-of-a-network)|[187](problems/0187-semiprimes)|[188](problems/0188-the-hyperexponentiation-of-a-number)|[189](problems/0189-tri-colouring-a-triangular-grid)|[190](problems/0190-maximising-a-weighted-product)|
-|[191](problems/0191-prize-strings)||||||[197](problems/0197-investigating-the-behavior-of-a-recursively-defined-sequence)||||
+|[191](problems/0191-prize-strings)||[193](problems/0193-squarefree-numbers)||||[197](problems/0197-investigating-the-behavior-of-a-recursively-defined-sequence)||||
 |[201](problems/0201-subsets-with-a-unique-sum)||[203](problems/0203-squarefree-binomial-coefficients)|[204](problems/0204-generalised-hamming-numbers)|[205](problems/0205-dice-game)|[206](problems/0206-concealed-square)|||||
 |[211](problems/0211-divisor-square-sum)|||[214](problems/0214-totient-chains)||||[218](problems/0218-perfect-right-angled-triangles)|||
 ||||||||||[230](problems/0230-fibonacci-words)|
 |||||[235](problems/0235-an-arithmetic-geometric-sequence)||||||
 |||[243](problems/0243-resilience)||||||[249](problems/0249-prime-subset-sums)||
 ||||||||[258](problems/0258-a-lagged-fibonacci-sequence)|[259](problems/0259-reachable-numbers)|[260](problems/0260-stone-game)|
-||||||[266](problems/0266-pseudo-square-root)|||||
+||||||[266](problems/0266-pseudo-square-root)|[267](problems/0267-billionaire)||||
 ||||||||||<br>|
 ||||||||||<br>|
 |[291](problems/0291-panaitopol-primes)||[293](problems/0293-pseudo-fortunate-numbers)|[294](problems/0294-sum-of-digits-experience-23)|||||||
@@ -266,12 +274,12 @@ Problems Attempted: 203
 |||||[375](problems/0375-minimum-of-subsequences)|||[378](problems/0378-triangle-triples)|||
 |[381](problems/0381-prime-k-factorial)||||||[387](problems/0387-harshad-numbers)||||
 ||||||||||<br>|
-||||||||[408](problems/0408-admissible-paths-through-a-grid)|||
+|[401](problems/0401-sum-of-squares-of-divisors)|||||||[408](problems/0408-admissible-paths-through-a-grid)|||
 |[411](problems/0411-uphill-paths)||||||||||
 |||||||||[429](problems/0429-sum-of-squares-of-unitary-divisors)||
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
+|||||||[457](problems/0457-a-polynomial-modulo-the-square-of-a-prime)||||
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|
@@ -299,8 +307,8 @@ Problems Attempted: 203
 ||||||||||[710](problems/0710-one-million-members)|
 ||||||||||<br>|
 ||||||||||<br>|
-||||||||||<br>|
-||||||||||<br>|
+|||[733](problems/0733-ascending-subsequences)||||||||
+|||[743](problems/0743-window-into-a-matrix)||||||||
 ||||||||||<br>|
 ||||||||||<br>|
 ||||||||||<br>|

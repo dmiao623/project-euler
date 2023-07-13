@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+
+\begin{document}
+
+\begin{theorem}
+Let $N$ be a random variable defined on the non-negative integers, and let $X_i$ be a sequence of random variables independent of $N$ and $\mathrm{E}[X_i]=\mathrm{E}[X]$ for all $i$. Then,$$\mathrm{E}\left[\sum_{i=1}^NX_i\right]=\mathrm{E}[N]\mathrm{E}[X].$$
+\end{theorem}
+
+\begin{proof}
+\begin{align*}
+\mathrm{E}\left[\sum_{i=1}^NX_i\right]&=\mathrm{E}\left[\mathrm{E}\left[\sum_{i=1}^n|N=n\right]\right]\\
+&=\sum_{i=1}^\infty \mathrm{E}\left[\sum_{j=1}^n X_j\right] \cdot \mathrm{Pr}[N=n]\\
+&=\sum_{i=1}^\infty n\mathrm{E}[X]\cdot \mathrm{Pr}[N=n]\\
+&=\mathrm{E}[X]\cdot \sum_{i=1}^\infty n\mathrm{Pr}[N=n]\\
+&=\mathrm{E}[N]\mathrm{E}[X]
+\end{align*}
+\end{proof}
+
+\begin{theorem}
+Let $N$ be a random variable defined on the non-negative integers, and let $X_i$ be a sequence of random variables independent of $N$ and $\mathrm{Var}[X_i]$ same for all $i$. Then,$$\mathrm{Var}\left[\sum_{i=1}^NX_i\right]=\mathrm{E}[N]\mathrm{Var}[X]+\mathrm{E}[X]^2 \mathrm{Var}[N]$$
+\end{theorem}
+
+\begin{proof}
+\begin{align*}
+\mathrm{Var}\left[\sum_{i=1}^NX_i\right]&=\E\left[\left(\sum_{i=1}^NX_i\right)^2\right]-\E\left[\sum_{i=1}^NX_i\right]^2\\
+&=\E\left[\E\left[\left(\sum_{i=1}^NX_i\right)^2|N=n\right]\right]-\E\left[\sum_{i=1}^NX_i\right]^2\\
+&=\E\left[E\left[\left(\sum_{i=1}^nX_i\right)^2\right]\right]-\E\left[\sum_{i=1}^NX_i\right]^2\\
+&=\E\left[\Var\left[\sum_{i=1}^nX_i\right]+\E\left[\sum_{i=1}^nX_i\right]^2\right]-\E\left[\sum_{i=1}^NX_i\right]^2\\
+&=\E\left[n\Var[X_i]+(n\E[X])^2\right]-\E\left[\sum_{i=1}^NX_i\right]^2\\
+&=\sum_{i=1}^\infty (n\Var[X_i]+(n\E[X])^2)\mathrm{Pr}[N=n]-\E\left[\sum_{i=1}^NX_i\right]^2\\
+&=\E[N]\Var[X]+\E[N^2]\E[X]^2-\E\left[\sum_{i=1}^NX_i\right]^2\\
+&=\E[N]\Var[X]+\E[N^2]\E[X]^2-(\E[N]\E[X])^2\\
+&=\E[N]\Var[X]+\E[X]^2(\E[N^2]-\E[N]^2)\\
+&=\E[N]\Var[X]+\E[X]^2\Var[N]
+\end{align*}
+\end{proof}
+
+\end{document}

@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+
+Consider a $3$ by $3$ slice of the tower. Within the slice, some blocks are horizontal (completely contained within the slice), some blocks come from the previous slice, and some blocks protrude into the next slice. Thus, each state can be represented as a bitmask of length $2^9$ denoting which blocks are protruding. 
+
+The transitions can be modelled using a $2^9$ by $2^9$ matrix and efficiently exponentiated to compute the answer. 
+
+The transition matrix can be computed by brute forcing all possible horizontal block configurations. Then, the number of configurations between two nodes can be computed by taking the union of the holes. 
+
+\end{document}
